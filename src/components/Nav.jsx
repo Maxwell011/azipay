@@ -6,6 +6,9 @@ function Navbar() {
           <a href='#home'>Azipay logo</a>
         </li>
         <li>
+          <a href='#home'>Home</a>
+        </li>
+        <li>
           <a href='#home'>Individual</a>
         </li>
         <li>
