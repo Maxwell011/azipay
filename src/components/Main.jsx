@@ -86,7 +86,20 @@ const Main = () => {
           Get on Google Play
         </button>
         {/* Section 6 */}
-        
+        <div className="section-six">
+        <h2>Get an Exclusive Demo of Eazipay</h2>
+        <div className="input-div">
+          <h3>First things first</h3>
+          <p>We want to serve you better. Tell us a bit about yourself or company</p>
+          <form action="">
+            {/* individual and companies */}
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="email" placeholder="Email" />
+            <button>Request Demo</button>
+          </form>
+        </div>
+        </div>
       </main>
     </>
   );
