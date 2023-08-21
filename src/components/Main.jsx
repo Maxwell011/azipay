@@ -30,18 +30,53 @@ const Main = () => {
           <h1>For Individuals and Businesses</h1>
           <small>Join 200+ businesses using Eazi pay easy solution</small>
           <div className=''>
-            <div className='box1'></div>
-            <div className='box2'></div>
-            <div className='box3'></div>
+            <div className='box1'>
+              <h2>Tamper-proof Payroll for Life</h2>
+              <ul>
+                <li>Your staff payroll history is kept in one place forever</li>
+                <li>No more excel sheet or manual records</li>
+                <li>Download your payroll history anytime you need it</li>
+              </ul>
+            </div>
+            <div className='box2'>
+              <h2>All Payroll, Anytime Anywhere</h2>
+              <ul>
+                <li>
+                  Wherever you are, Eazipay has got you covered on All your payroll tasks
+                </li>
+                <li>
+                  Whether is Taxes, pension Insurances HMOS, trustfunds, Eazipay has got you covered on All your complainces In one place and easily, In seconds
+                </li>
+              </ul>
+            </div>
+            <div className='box3'>
+              <h2>Payroll In Seconds</h2>
+              <ul>
+                <li>
+                  Never again will you spend more than 2 minutes to payroll
+                </li>
+                <li>Just click on your staff and bulk-pay them at once</li>
+                <li>Payment is done permanently</li>
+              </ul>
+            </div>
           </div>
           <small>
             We are happy to answer your queries. Please reach us at
             hello@eazipay.com and expect our response shortly
           </small>
         </section>
-        {/* section 4  */}
-        <h2>Free forever for your salary payment</h2>
-        <p>Subscribe to the EaziLife today</p>
+        {/* section 4 */}
+        <h1>How Eazipay Works</h1>
+        <h3>Get started in 3 simple steps</h3>
+        {/* Iphone image animation */}\
+        TODO:
+
+        <h2>03 Prepare your Transaction</h2>
+        <p>Run payroll: Bulk salaried and Compliance are done at once</p>
+        {/* section 5 */}
+        <h2>Free forever for your <span>salary payment</span></h2>
+        {/* Image */}
+        <p>Download the Eazipay App today</p>
         <button>
           <FaApple />
           Download on the Apple store
@@ -50,6 +85,8 @@ const Main = () => {
           <FaGooglePlay />
           Get on Google Play
         </button>
+        {/* Section 6 */}
+        
       </main>
     </>
   );
