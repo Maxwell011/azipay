@@ -69,6 +69,8 @@ const Business = () => {
         </div>
         <button>Run Payroll</button>
       </form>
+      <div className="">
+      </div>
     </div>
   );
 };
