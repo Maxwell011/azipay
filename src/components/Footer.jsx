@@ -4,14 +4,15 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className=''>
-          <p>Azipay logo</p>
-          <p>&copy; 2023 Your Website. All rights reserved.</p>
-          <FaInstagram />
-          <FaTwitter />
-          <FaLinkedinIn />
-          <FaFacebookF />
+        <div>
+          <p>Contact Us</p>
+          <ul>
+            <li>ezipay@gmail.com</li>
+            <li>+2348168768762</li>
+            <input type='text' />
+          </ul>
         </div>
+
         <div>
           <p>Product</p>
           <ul>
@@ -37,13 +38,13 @@ const Footer = () => {
             <li>Customer Stories</li>
           </ul>
         </div>
-        <div>
-          <p>Contact Us</p>
-          <ul>
-            <li>ezipay@gmail.com</li>
-            <li>+2348168768762</li>
-						<input type="text" />
-          </ul>
+        <div className=''>
+          <p>Azipay logo</p>
+          <p>&copy; 2023 Your Website. All rights reserved.</p>
+          <FaInstagram />
+          <FaTwitter />
+          <FaLinkedinIn />
+          <FaFacebookF />
         </div>
       </footer>
     </>
