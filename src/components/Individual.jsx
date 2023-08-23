@@ -1,4 +1,5 @@
-import { BiPhoneCall, BiWifi } from "react-icons/bi";
+import { BiPhoneCall, BiWifi, BiBoltCircle } from "react-icons/bi";
+import { FaMoneyBillWave, FaTelegram } from "react-icons/fa";
 
 const Individual = () => {
   return (
@@ -36,12 +37,25 @@ const Individual = () => {
         <div className='boxes'>
           <div className='box'>
             <BiPhoneCall />
+            Airtime
           </div>
-          <div className='box'><BiWifi/></div>
-          <div className='box'>Electricity</div>
+          <div className='box'>
+            <BiWifi />
+            Data
+          </div>
+          <div className='box'>
+            <BiBoltCircle />
+            Electricity
+          </div>
           <div className='box'>Gotv/Dstv</div>
-          <div className='box'>Make a Transfer</div>
-          <div className='box'>Pay Salaries</div>
+          <div className='box'>
+            <FaTelegram />
+            Make a Transfer
+          </div>
+          <div className='box'>
+            <FaMoneyBillWave />
+            Pay Salaries
+          </div>
           <div className='box'>Get Loan</div>
           <button>Get started now</button>
         </div>
