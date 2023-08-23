@@ -1,31 +1,17 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav>
       <ul>
-        <li>
-          <a href='#home'>Azipay logo</a>
-        </li>
-        <li>
-          <a href='#home'>Home</a>
-        </li>
-        <li>
-          <a href='#home'>Individual</a>
-        </li>
-        <li>
-          <a href='#about'>Business</a>
-        </li>
-        <li>
-          <a href='#services'>Pricing</a>
-        </li>
-        <li>
-          <a href='#contact'>Set your payroll</a>
-        </li>
-        <li>
-          <a href='#contact'>Login</a>
-        </li>
-        <li>
-          <a href='#contact'>Register</a>
-        </li>
+        <Link to='/'>Azipay logo</Link>
+        <Link to='/'>Home</Link>
+        <Link to='/individual'>Individual</Link>
+        <Link to='/business'>Business</Link>
+        <Link to='/pricing'>Pricing</Link>
+        <Link to='/'>Set your payroll</Link>
+        <Link to='/login'>Login</Link>
+        <Link to='/register'>Register</Link>
       </ul>
     </nav>
   );
