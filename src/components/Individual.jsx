@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+import { BiPhoneCall, BiWifi } from "react-icons/bi";
 
 const Individual = () => {
   return (
@@ -34,16 +34,18 @@ const Individual = () => {
           beneficiaries
         </p>
         <div className='boxes'>
-          <div className='box'>Airtime</div>
-          <div className='box'>Data</div>
+          <div className='box'>
+            <BiPhoneCall />
+          </div>
+          <div className='box'><BiWifi/></div>
           <div className='box'>Electricity</div>
           <div className='box'>Gotv/Dstv</div>
           <div className='box'>Make a Transfer</div>
           <div className='box'>Pay Salaries</div>
           <div className='box'>Get Loan</div>
+          <button>Get started now</button>
         </div>
       </div>
-			<Footer />
     </div>
   );
 };
