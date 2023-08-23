@@ -27,9 +27,9 @@ const Business = () => {
       <h2>REPORT</h2>
       <h1>Accurate Payroll reports & Payslips</h1>
       <p>
-        For making inteligent business decisons, Get your payroll report,
-        employee payslips, tax recipts, payroll analysis, compliance history -
-        all in one place!
+        For making intelligent business decisions, Get your payroll report,
+        employee payslips, tax receipts, payroll analysis, compliance history -
+        all in one place!{" "}
       </p>
       {/* section 4*/}
       <img src='' alt='' />
@@ -44,8 +44,8 @@ const Business = () => {
       <h2>EAZIPAY PAYROLL CALCULATOR</h2>
       <h1>Run payroll in Five minutes or less</h1>
       <p>
-        For making inteligent business decisons, Get your payroll report,
-        employee payslips, tax recipts, payroll analysis, compliance history -
+        For making intelligent business decisions, Get your payroll report,
+        employee payslips, tax receipts, payroll analysis, compliance history -
         all in one place!{" "}
       </p>
       <form action=''>
@@ -69,8 +69,6 @@ const Business = () => {
         </div>
         <button>Run Payroll</button>
       </form>
-      <div className="">
-      </div>
     </div>
   );
 };
