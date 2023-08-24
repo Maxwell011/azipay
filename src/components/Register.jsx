@@ -1,6 +1,21 @@
 const Register = () => {
   return (
-    <div>Register</div>
+    <>
+    <div>
+      <h1>Welcome to Eazipay</h1>
+      <p>Please choose an account to sign up and get started.</p>
+      <div className="">
+        <h2>Personal Account</h2>
+        <p>For individual who pay their personal and domestic stuff</p>
+      </div>
+      <div className="">
+        <h2>Business Account</h2>
+        <p>For registered business SMEs, startups, corporates and large companies</p>
+      </div>
+      <button>Get Started</button>
+      <p>Already have an account? Sign In</p>
+    </div>
+    </>
   )
 }
 export default Register
