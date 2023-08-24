@@ -6,7 +6,13 @@ const Main = () => {
       <main>
         {/* Section 1  */}
         <section>
-          <h1>Run your payroll easily in seconds</h1>
+          <h1
+            className='font-size: 3rem;
+            line-height: 1;'
+          >
+            <span className='text-black'>Run your</span> payroll easily in
+            seconds
+          </h1>
           <p>
             We have built an all-inclusive simple solution for individuals and
             business to manage staff, pay salaries, bills and relevant taxes all
@@ -42,10 +48,13 @@ const Main = () => {
               <h2>All Payroll, Anytime Anywhere</h2>
               <ul>
                 <li>
-                  Wherever you are, Eazipay has got you covered on All your payroll tasks
+                  Wherever you are, Eazipay has got you covered on All your
+                  payroll tasks
                 </li>
                 <li>
-                  Whether is Taxes, pension Insurances HMOS, trustfunds, Eazipay has got you covered on All your complainces In one place and easily, In seconds
+                  Whether is Taxes, pension Insurances HMOS, trustfunds, Eazipay
+                  has got you covered on All your complainces In one place and
+                  easily, In seconds
                 </li>
               </ul>
             </div>
@@ -68,13 +77,13 @@ const Main = () => {
         {/* section 4 */}
         <h1>How Eazipay Works</h1>
         <h3>Get started in 3 simple steps</h3>
-        {/* Iphone image animation */}\
-        TODO:
-
+        {/* Iphone image animation */}\ TODO:
         <h2>03 Prepare your Transaction</h2>
         <p>Run payroll: Bulk salaried and Compliance are done at once</p>
         {/* section 5 */}
-        <h2>Free forever for your <span>salary payment</span></h2>
+        <h2>
+          Free forever for your <span>salary payment</span>
+        </h2>
         {/* Image */}
         <p>Download the Eazipay App today</p>
         <button>
@@ -86,19 +95,22 @@ const Main = () => {
           Get on Google Play
         </button>
         {/* Section 6 */}
-        <div className="section-six">
-        <h2>Get an Exclusive Demo of Eazipay</h2>
-        <div className="input-div">
-          <h3>First things first</h3>
-          <p>We want to serve you better. Tell us a bit about yourself or company</p>
-          <form action="">
-            {/* individual and companies */}
-            <input type="text" placeholder="First Name" />
-            <input type="text" placeholder="Last Name" />
-            <input type="email" placeholder="Email" />
-            <button>Request Demo</button>
-          </form>
-        </div>
+        <div className='section-six'>
+          <h2>Get an Exclusive Demo of Eazipay</h2>
+          <div className='input-div'>
+            <h3>First things first</h3>
+            <p>
+              We want to serve you better. Tell us a bit about yourself or
+              company
+            </p>
+            <form action=''>
+              {/* individual and companies */}
+              <input type='text' placeholder='First Name' />
+              <input type='text' placeholder='Last Name' />
+              <input type='email' placeholder='Email' />
+              <button>Request Demo</button>
+            </form>
+          </div>
         </div>
       </main>
     </>
