@@ -1,4 +1,5 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
+import "../App.css";
 
 const Main = () => {
   return (
