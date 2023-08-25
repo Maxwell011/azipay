@@ -6,21 +6,19 @@ const Main = () => {
     <>
       <main>
         {/* Section 1  */}
-        <section>
-          <h1
-            className='font-size: 3rem;
-            line-height: 1;'
+        <section className="first-section">
+          <h1 className='main-heading'
           >
-            <span className='text-black'>Run your</span> payroll easily in
+            <span className=''>Run your</span> payroll easily in
             seconds
           </h1>
-          <p>
+          <p className="heading-paragraph">
             We have built an all-inclusive simple solution for individuals and
             business to manage staff, pay salaries, bills and relevant taxes all
             at ones.
           </p>
           ;{/*  Button */}
-          <button>Start Using free, Forever</button>
+          <button className="start-btn">Start Using free, Forever</button>
           {/*  */}
           <p>Download The Eazipay App</p>
           <button>
