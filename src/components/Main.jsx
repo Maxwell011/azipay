@@ -6,30 +6,36 @@ const Main = () => {
     <>
       <main>
         {/* Section 1  */}
-        <section className="first-section">
-          <h1 className='main-heading'
-          >
-            <span className=''>Run your</span> payroll easily in
-            seconds
+        <section className='first-section'>
+          <h1 className='main-heading'>
+            <span className='run'>Run your</span>{" "}
+            <span className='payroll'>payroll</span>
+            <br/>
+            <span className='easily'>easily</span>
+            <span className='in'> in</span>
+            <span className='seconds'> seconds</span>
           </h1>
-          <p className="heading-paragraph">
+          <p className='heading-paragraph'>
             We have built an all-inclusive simple solution for individuals and
             business to manage staff, pay salaries, bills and relevant taxes all
             at ones.
           </p>
-          ;{/*  Button */}
-          <button className="start-btn">Start Using free, Forever</button>
+          {/*  Button */}
+          <button className='start-btn'>Start Using free, Forever</button>
           {/*  */}
           <p>Download The Eazipay App</p>
-          <button>
-            <FaApple />
-            Download on the Apple store
-          </button>
-          <button>
-            <FaGooglePlay />
+          <div className="download">
+          <button className="download-btn">
+            <FaGooglePlay className="googleplay-icon" />
             Get on Google Play
           </button>
+          <button className="download-btn">
+            <FaApple />
+            Download on Apple store
+          </button>
+          </div>
         </section>
+
         {/* Section 2 */}
         <section>
           <h1>For Individuals and Businesses</h1>

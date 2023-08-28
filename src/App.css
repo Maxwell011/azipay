@@ -3,29 +3,87 @@
 @tailwind utilities;
 
 * {
- padding: 0;
- margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 0 100px;
 }
 
 .main-heading {
- font-size: 35px;
- align-items: center;
- font-weight: bold;
+  font-size: 44px;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 24px;
 }
 
 .first-section {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0 2.5rem 0;
 }
 
-.heading-paragraph{
+.run {
+  color: #000;
+}
 
+.payroll {
+  color: #11453b;
+}
+
+.easily {
+  color: #b4a572;
+}
+.in {
+}
+.seconds {
+  color: #ea4e4b;
+}
+
+.heading-paragraph {
+  color: #515251;
+  font-size: 16px;
+  margin-bottom: 24px;
 }
 
 .start-btn {
- background: green;
- color: #fff;
- padding: 10px;
- border-radius: 10px;
- align-items: center;
- margin: 0 100px;
+  /* background: #11453b80; */
+  background: #11453b;
+  color: #fff;
+  font-size: 16px;
+  /* padding: 10px; */
+  border-radius: 32px;
+  font-weight: 500;
+  align-items: center;
+  outline: none;
+  height: 46px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+}
+
+.download {
+  display: flex;
+}
+
+.download-btn {
+  background-color: red;
+  box-shadow: 0 20px 48px 0 hsla(0, 0%, 66.7%, 0.29);
+  border-radius: 9px;
+  height: 60px;
+  width:120px;
+  font-size: 15px;
+  margin:10px;
+  display:flex;
+  align-items: center;
+}
+
+.googleplay-icon{
+ color: pink;
 }
