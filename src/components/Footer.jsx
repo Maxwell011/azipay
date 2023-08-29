@@ -1,13 +1,14 @@
 import { FaInstagram, FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import '../css/Footer.css'
 
 const Footer = () => {
   return (
     <>
       <footer>
         <div>
-          <p>Contact Us</p>
+          <p className="contact">Contact Us</p>
           <ul>
-            <li>ezipay@gmail.com</li>
+            <li className="gmail">ezipay@gmail.com</li>
             <li>+2348168768762</li>
             <input type='text' />
           </ul>

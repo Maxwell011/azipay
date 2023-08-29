@@ -1,0 +1,14 @@
+*{
+ margin: 0 100px;
+}
+
+.contact {
+ font-size:20px;
+ margin: 0 0 16px 0;
+}
+
+.gmail {
+ /* font-size:20px; */
+ font-size:18px;
+ align-items: center;
+}
