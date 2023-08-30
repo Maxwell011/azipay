@@ -44,10 +44,12 @@ const Footer = () => {
         <div className=''>
           <p>Azipay logo</p>
           <p>&copy; 2023 Your Website. All rights reserved.</p>
-          <FaInstagram className="social-icons"/>
-          <FaTwitter className="social-icons"/>
-          <FaLinkedinIn className="social-icons"/>
-          <FaFacebookF className="social-icons"/>
+          <div className="social-icons">
+          <FaInstagram className="social-icon"/>
+          <FaTwitter className="social-icon"/>
+          <FaLinkedinIn className="social-icon"/>
+          <FaFacebookF className="social-icon"/>
+          </div>
         </div>
       </footer>
     </>
