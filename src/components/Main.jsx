@@ -10,7 +10,7 @@ const Main = () => {
           <h1 className='main-heading'>
             <span className='run'>Run your</span>{" "}
             <span className='payroll'>payroll</span>
-            <br/>
+            <br />
             <span className='easily'>easily</span>
             <span className='in'> in</span>
             <span className='seconds'> seconds</span>
@@ -24,18 +24,17 @@ const Main = () => {
           <button className='start-btn'>Start Using free, Forever</button>
           {/*  */}
           <p>Download The Eazipay App</p>
-          <div className="download">
-          <button className="download-btn">
-            <FaGooglePlay className="googleplay-icon" />
-            Get on Google Play
-          </button>
-          <button className="download-btn">
-            <FaApple />
-            Download on Apple store
-          </button>
+          <div className='download'>
+            <button className='download-btn'>
+              <FaGooglePlay className='googleplay-icon' />
+              Get on Google Play
+            </button>
+            <button className='download-btn'>
+              <FaApple />
+              Download on Apple store
+            </button>
           </div>
         </section>
-
         {/* Section 2 */}
         <section>
           <h1>For Individuals and Businesses</h1>
@@ -82,7 +81,7 @@ const Main = () => {
         {/* section 4 */}
         <h1>How Eazipay Works</h1>
         <h3>Get started in 3 simple steps</h3>
-        {/* Iphone image animation */}\ TODO:
+        {/* Iphone image animation */} TODO:
         <h2>03 Prepare your Transaction</h2>
         <p>Run payroll: Bulk salaried and Compliance are done at once</p>
         {/* section 5 */}
@@ -91,11 +90,11 @@ const Main = () => {
         </h2>
         {/* Image */}
         <p>Download the Eazipay App today</p>
-        <button>
+        <button className='download-btn'>
           <FaApple />
           Download on the Apple store
         </button>
-        <button>
+        <button className='download-btn'>
           <FaGooglePlay />
           Get on Google Play
         </button>

@@ -84,10 +84,7 @@ main {
 }
 
 .googleplay-icon {
-  color: greenyellow;
   font-size: 20px;
-  /* background: #f2f1f1; */
   background: #000;
-  padding:10px;
   border-radius: 50%;
 }
