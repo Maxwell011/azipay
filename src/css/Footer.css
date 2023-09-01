@@ -39,5 +39,10 @@ footer {
 }
 
 .social-icon {
- 
+ border-radius: 50%;
+    background: aquamarine;
+    padding: 10px;
+    color: #212121;
+    /* width: 200px;
+    height: 200px; */
 }
