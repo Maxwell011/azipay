@@ -33,16 +33,20 @@ footer {
 }
 
 .social-icons {
- display: flex;
- align-items: center;
- gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .social-icon {
- border-radius: 50%;
-    background: aquamarine;
-    padding: 10px;
-    color: #212121;
-    /* width: 200px;
-    height: 200px; */
+  border-radius: 50%;
+  background: aquamarine;
+  color: #212121;
+}
+
+.email-input {
+  border: 1px solid pink;
+  border-radius: 10px;
+  height: 30px;
+  padding: 20px;
 }

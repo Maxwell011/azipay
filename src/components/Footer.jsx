@@ -10,7 +10,7 @@ const Footer = () => {
           <ul>
             <li className="gmail">ezipay@gmail.com</li>
             <li className="number">+2348168768762</li>
-            <input type='text' placeholder="Your Email Address" />
+            <input type='text' className="email-input" placeholder="Your Email Address" />
           </ul>
         </div>
 
