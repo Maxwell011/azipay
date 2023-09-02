@@ -39,9 +39,9 @@ const Main = () => {
         <section>
           <h1>For Individuals and Businesses</h1>
           <small>Join 200+ businesses using Eazi pay easy solution</small>
-          <div className=''>
+          <div className='boxes'>
             <div className='box1'>
-              <h2>Tamper-proof Payroll for Life</h2>
+              <h2 className='box-heading'>Tamper-proof Payroll for Life</h2>
               <ul>
                 <li>Your staff payroll history is kept in one place forever</li>
                 <li>No more excel sheet or manual records</li>
@@ -49,7 +49,7 @@ const Main = () => {
               </ul>
             </div>
             <div className='box2'>
-              <h2>All Payroll, Anytime Anywhere</h2>
+              <h2 className='box-heading'>All Payroll, Anytime Anywhere</h2>
               <ul>
                 <li>
                   Wherever you are, Eazipay has got you covered on All your
@@ -57,13 +57,13 @@ const Main = () => {
                 </li>
                 <li>
                   Whether is Taxes, pension Insurances HMOS, trustfunds, Eazipay
-                  has got you covered on All your complainces In one place and
+                  has got you covered on All your compliances In one place and
                   easily, In seconds
                 </li>
               </ul>
             </div>
             <div className='box3'>
-              <h2>Payroll In Seconds</h2>
+              <h2 className='box-heading'>Payroll In Seconds</h2>
               <ul>
                 <li>
                   Never again will you spend more than 2 minutes to payroll
@@ -89,15 +89,17 @@ const Main = () => {
           Free forever for your <span>salary payment</span>
         </h2>
         {/* Image */}
-        <p>Download the Eazipay App today</p>
-        <button className='download-btn'>
-          <FaApple />
-          Download on the Apple store
-        </button>
-        <button className='download-btn'>
-          <FaGooglePlay />
-          Get on Google Play
-        </button>
+        <div className=''>
+          <p>Download the Eazipay App today</p>
+          <button className='download-btn'>
+            <FaApple />
+            Download on the Apple store
+          </button>
+          <button className='download-btn'>
+            <FaGooglePlay />
+            Get on Google Play
+          </button>
+        </div>
         {/* Section 6 */}
         <div className='section-six'>
           <h2>Get an Exclusive Demo of Eazipay</h2>

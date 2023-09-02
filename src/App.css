@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+ul > li {
+  margin-top: 3px;
+}
+
 main {
   margin: 0 100px;
 }
@@ -87,4 +91,24 @@ main {
   font-size: 20px;
   background: #000;
   border-radius: 50%;
+}
+
+.box-heading {
+  color: #11453b;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* .boxes */
+
+.box1,
+.box2,
+.box3 {
+  background: #ea4e4b;
+  padding: 14px;
+  margin: 15px;
+  width: 190%;
+  border-radius: 15px;
 }
