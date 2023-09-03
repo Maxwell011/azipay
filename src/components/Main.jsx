@@ -37,7 +37,7 @@ const Main = () => {
         </section>
         {/* Section 2 */}
         <section>
-          <h1 className="section2heading">For Individuals and Businesses</h1>
+          <h1 className='section2heading'>For Individuals and Businesses</h1>
           <small>Join 200+ businesses using Eazi pay easy solution</small>
           <div className='boxes'>
             <div className='box1'>
@@ -73,7 +73,7 @@ const Main = () => {
               </ul>
             </div>
           </div>
-          <p className="small">
+          <p className='small'>
             We are happy to answer your queries. Please reach us at
             hello@eazipay.com and expect our response shortly
           </p>
@@ -91,14 +91,16 @@ const Main = () => {
         {/* Image */}
         <div className=''>
           <p>Download the Eazipay App today</p>
-          <button className='download-btn'>
-            <FaApple />
-            Download on the Apple store
-          </button>
-          <button className='download-btn'>
-            <FaGooglePlay />
-            Get on Google Play
-          </button>
+          <div className='btn'>
+            <button className='download-btn'>
+              <FaApple />
+              Download on the Apple store
+            </button>
+            <button className='download-btn'>
+              <FaGooglePlay />
+              Get on Google Play
+            </button>
+          </div>
         </div>
         {/* Section 6 */}
         <div className='section-six'>
