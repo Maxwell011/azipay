@@ -37,7 +37,7 @@ const Main = () => {
         </section>
         {/* Section 2 */}
         <section>
-          <h1>For Individuals and Businesses</h1>
+          <h1 className="section2heading">For Individuals and Businesses</h1>
           <small>Join 200+ businesses using Eazi pay easy solution</small>
           <div className='boxes'>
             <div className='box1'>
@@ -73,10 +73,10 @@ const Main = () => {
               </ul>
             </div>
           </div>
-          <small>
+          <p className="small">
             We are happy to answer your queries. Please reach us at
             hello@eazipay.com and expect our response shortly
-          </small>
+          </p>
         </section>
         {/* section 4 */}
         <h1>How Eazipay Works</h1>

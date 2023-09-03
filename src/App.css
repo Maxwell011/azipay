@@ -57,17 +57,13 @@ main {
   background: #11453b;
   color: #fff;
   font-size: 16px;
-  /* padding: 10px; */
+  width: 135%;
   border-radius: 32px;
   font-weight: 500;
-  align-items: center;
   outline: none;
-  height: 46px;
+  height: 35px;
   padding-left: 30px;
   padding-right: 30px;
-  /* display: inline-flex; */
-  align-items: center;
-  justify-content: center;
   transition: transform 0.25s ease;
 }
 
@@ -111,4 +107,18 @@ main {
   margin: 15px;
   width: 190%;
   border-radius: 15px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section2heading {
+  /* font-size: 35px; */
+}
+
+.small {
+  width: 190%;
 }
