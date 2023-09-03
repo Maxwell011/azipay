@@ -17,10 +17,10 @@ main {
 
 .main-heading {
   font-size: 44px;
-  align-items: center;
   font-weight: 500;
   line-height: 1.1;
   margin-bottom: 24px;
+  width: 200%;
 }
 
 .first-section {
@@ -51,6 +51,7 @@ main {
   color: #515251;
   font-size: 16px;
   margin-bottom: 1.5rem;
+  width: 200%;
 }
 
 .start-btn {
