@@ -23,14 +23,14 @@ const Main = () => {
           {/*  Button */}
           <button className='start-btn'>Start Using free, Forever</button>
           {/*  */}
-          <p>Download The Eazipay App</p>
+          <p className='download-eazipay'>Download The Eazipay App</p>
           <div className='download'>
             <button className='download-btn'>
               <FaGooglePlay className='googleplay-icon' />
-              Get on Google Play
+              Get on <br /> Google Play
             </button>
             <button className='download-btn'>
-              <FaApple />
+              <FaApple className='googleplay-icon' />
               Download on Apple store
             </button>
           </div>
