@@ -104,7 +104,19 @@ main {
   margin-bottom: 15px;
 }
 
-/* .boxes */
+.download-eazipay {
+  margin-bottom: 16px;
+  margin-top: 40px;
+  width: max-content;
+  font-size: 20px;
+}
+
+/* section2 */
+
+.section2 {
+  padding: 40px 0px;
+  margin:0;
+}
 
 .box1,
 .box2,
@@ -123,18 +135,17 @@ main {
 }
 
 .section2heading {
-  /* font-size: 35px; */
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #11453b;
 }
 
 .small {
   width: 190%;
+  font-size:16px;
 }
 
-.download-eazipay {
-  margin-bottom: 16px;
-  margin-top: 40px;
-  width: max-content;
-  font-size: 20px;
+.section2-headline {
+
 }
-
-

@@ -36,9 +36,11 @@ const Main = () => {
           </div>
         </section>
         {/* Section 2 */}
-        <section>
-          <h1 className='section2heading'>For Individuals and Businesses</h1>
-          <small>Join 200+ businesses using Eazi pay easy solution</small>
+        <section className='section2'>
+          <div className='section2-headline'>
+            <h1 className='section2heading'>For Individuals and Businesses</h1>
+            <small>Join 200+ businesses using Eazi pay easy solution</small>
+          </div>
           <div className='boxes'>
             <div className='box1'>
               <h2 className='box-heading'>Tamper-proof Payroll for Life</h2>
