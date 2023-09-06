@@ -260,7 +260,7 @@ main {
 }
 
 .form label .input:valid + span {
-  color: green;
+  color: black;
 }
 
 .submit {
