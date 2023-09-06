@@ -13,6 +13,10 @@ ul > li {
 
 main {
   margin: 0 100px;
+  /* display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh; */
 }
 
 .main-heading {
@@ -149,3 +153,8 @@ main {
 .section2-headline {
 
 }
+
+.new{
+  
+}
+
