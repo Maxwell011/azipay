@@ -34,12 +34,6 @@ main {
   padding: 4rem 0 2.5rem 0;
 }
 
-.btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .run {
   color: #000;
 }
@@ -157,7 +151,6 @@ main {
 .new {
 }
 
-
 .form {
   display: flex;
   flex-direction: column;
@@ -181,7 +174,8 @@ main {
   padding-left: 30px;
 }
 
-.title::before,.title::after {
+.title::before,
+.title::after {
   position: absolute;
   content: "";
   height: 16px;
@@ -203,7 +197,8 @@ main {
   animation: pulse 1s linear infinite;
 }
 
-.message, .signin {
+.message,
+.signin {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
 }
@@ -253,7 +248,8 @@ main {
   font-size: 0.9em;
 }
 
-.form label .input:focus + span,.form label .input:valid + span {
+.form label .input:focus + span,
+.form label .input:valid + span {
   top: 30px;
   font-size: 0.7em;
   font-weight: 600;
@@ -271,7 +267,7 @@ main {
   border-radius: 10px;
   color: #fff;
   font-size: 16px;
-  transform: .3s ease;
+  transform: 0.3s ease;
 }
 
 .submit:hover {
@@ -288,4 +284,12 @@ main {
     transform: scale(1.8);
     opacity: 0;
   }
+}
+
+/* Section 5 */
+.section5 {
+  background-image: url(/images/patterns.f71bb1a4.png);
+  background-color: rgb(255, 233, 231);
+  background-size: cover;
+  background-position: 50% center;
 }

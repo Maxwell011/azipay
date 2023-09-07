@@ -1,5 +1,6 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import "../App.css";
+import Freeforever from "../../public/images/free-forever.9a58e2e5.png";
 
 const Main = () => {
   return (
@@ -87,22 +88,24 @@ const Main = () => {
         <h2>03 Prepare your Transaction</h2>
         <p>Run payroll: Bulk salaried and Compliance are done at once</p>
         {/* section 5 */}
+        <div className="section5">
         <h2>
           Free forever for your <span>salary payment</span>
         </h2>
+      
         {/* Image */}
-        <div className=''>
-          <p>Download the Eazipay App today</p>
-          <div className='btn'>
-            <button className='download-btn'>
-              <FaApple />
-              Download on the Apple store
-            </button>
-            <button className='download-btn'>
-              <FaGooglePlay />
-              Get on Google Play
-            </button>
-          </div>
+        <img src={Freeforever} alt="Free Forever image" />
+        {/* <p className='download-eazipay'>Download The Eazipay App</p>
+        <div className='download'>
+          <button className='download-btn'>
+            <FaGooglePlay className='googleplay-icon' />
+            Get on <br /> Google Play
+          </button>
+          <button className='download-btn'>
+            <FaApple className='googleplay-icon' />
+            Download on Apple store
+          </button>
+        </div> */}
         </div>
         {/* Section 6 */}
         <div className='section-six'>
