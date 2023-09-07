@@ -88,14 +88,15 @@ const Main = () => {
         <h2>03 Prepare your Transaction</h2>
         <p>Run payroll: Bulk salaried and Compliance are done at once</p>
         {/* section 5 */}
-        <div className="section5">
-        <h2>
-          Free forever for your <span>salary payment</span>
-        </h2>
-      
-        {/* Image */}
-        <img src={Freeforever} alt="Free Forever image" />
-        {/* <p className='download-eazipay'>Download The Eazipay App</p>
+        <div className='section5'>
+          <h2 className='section5-heading'>
+            Free forever for your <span className="salary">salary payment</span>
+          </h2>
+          <p>Get started in 3 simple steps</p>
+
+          {/* Image */}
+          <img src={Freeforever} alt='Free Forever image' />
+          {/* <p className='download-eazipay'>Download The Eazipay App</p>
         <div className='download'>
           <button className='download-btn'>
             <FaGooglePlay className='googleplay-icon' />
