@@ -1,6 +1,6 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import "../App.css";
-import Freeforever from "../../public/images/free-forever.9a58e2e5.png";
+import Freeforever from "/images/free-forever.9a58e2e5.png";
 
 const Main = () => {
   return (
