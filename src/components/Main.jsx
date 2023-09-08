@@ -83,13 +83,18 @@ const Main = () => {
         </section>
         {/* section 4 */}
         <section className='section4'>
-          <div className="section4-heading">
-          <h1 className="section4-title">How Eazipay Works</h1>
-          <h3>Get started in 3 simple steps</h3>
+          <div className='section4-heading'>
+            <h1 className='section4-title'>How Eazipay Works</h1>
+            <h3>Get started in 3 simple steps</h3>
           </div>
-          <img src={Phonegif} alt='Free Forever image' className="iphone" />
-          <h2>03 Prepare your Transaction</h2>
-          <p>Run payroll: Bulk salaried and Compliance are done at once</p>
+          <img src={Phonegif} alt='Free Forever image' className='iphone' />
+          <div className='section4-bottom'>
+            <div className='prepare-flex'>
+              <p>03</p>
+              <h2 className='prepare'>Prepare your Transaction</h2>
+            </div>
+            <p className="run-payroll">Run payroll: Bulk salaried and Compliance are done at once</p>
+          </div>
         </section>
         {/* section 5 */}
         <div className='section5'>
