@@ -269,6 +269,21 @@ main {
   }
 }
 
+/* section4 */
+
+.section4-heading {
+  margin-bottom: 32px;
+}
+
+.section4-title {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.iphone {
+  border-radius: 30px;
+}
+
 /* Section 5 */
 .section5 {
   background-image: url(/images/patterns.f71bb1a4.png);
@@ -282,5 +297,4 @@ main {
 }
 
 .salary {
-  
 }

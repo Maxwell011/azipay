@@ -83,9 +83,11 @@ const Main = () => {
         </section>
         {/* section 4 */}
         <section className='section4'>
-          <h1>How Eazipay Works</h1>
+          <div className="section4-heading">
+          <h1 className="section4-title">How Eazipay Works</h1>
           <h3>Get started in 3 simple steps</h3>
-          <img src={Phonegif} alt='Free Forever image' />
+          </div>
+          <img src={Phonegif} alt='Free Forever image' className="iphone" />
           <h2>03 Prepare your Transaction</h2>
           <p>Run payroll: Bulk salaried and Compliance are done at once</p>
         </section>
