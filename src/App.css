@@ -80,6 +80,12 @@ main {
   margin-bottom: 15px;
 }
 
+.download {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
 .download-eazipay {
   margin-bottom: 16px;
   margin-top: 40px;

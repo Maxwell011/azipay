@@ -1,9 +1,8 @@
 import "../App.css";
 import Freeforever from "/images/free-forever.9a58e2e5.png";
-import Phonegif from "/images/payroll.372ea3c0.gif"
-import Googlestore from '/images/google-store.af961bc5.png'
-import Applestore from '/images/apple-store.1c73f0ba.png'
-
+import Phonegif from "/images/payroll.372ea3c0.gif";
+import Googlestore from "/images/google-store.af961bc5.png";
+import Applestore from "/images/apple-store.1c73f0ba.png";
 
 const Main = () => {
   return (
@@ -28,8 +27,14 @@ const Main = () => {
           <button className='start-btn'>Start Using free, Forever</button>
           {/*  */}
           <p className='download-eazipay'>Download The Eazipay App</p>
-          <img src={Googlestore} alt='Googel store' />
-          <img src={Applestore} alt='Googel store' />
+          <div className='download'>
+            <img
+              src={Googlestore}
+              alt='Google store'
+              className='google-store'
+            />
+            <img src={Applestore} alt='Apple store' />
+          </div>
         </section>
         {/* Section 2 */}
         <section className='section2'>
@@ -77,12 +82,13 @@ const Main = () => {
           </p>
         </section>
         {/* section 4 */}
-        <h1>How Eazipay Works</h1>
-        <h3>Get started in 3 simple steps</h3>
-        <img src={Phonegif} alt='Free Forever image' />
-        {/* Iphone image animation */} TODO:
-        <h2>03 Prepare your Transaction</h2>
-        <p>Run payroll: Bulk salaried and Compliance are done at once</p>
+        <section className='section4'>
+          <h1>How Eazipay Works</h1>
+          <h3>Get started in 3 simple steps</h3>
+          <img src={Phonegif} alt='Free Forever image' />
+          <h2>03 Prepare your Transaction</h2>
+          <p>Run payroll: Bulk salaried and Compliance are done at once</p>
+        </section>
         {/* section 5 */}
         <div className='section5'>
           <h2 className='section5-heading'>
