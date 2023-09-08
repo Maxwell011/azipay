@@ -1,6 +1,9 @@
-import { FaApple, FaGooglePlay } from "react-icons/fa";
 import "../App.css";
 import Freeforever from "/images/free-forever.9a58e2e5.png";
+import Phonegif from "/images/payroll.372ea3c0.gif"
+import Googlestore from '/images/google-store.af961bc5.png'
+import Applestore from '/images/apple-store.1c73f0ba.png'
+
 
 const Main = () => {
   return (
@@ -25,16 +28,8 @@ const Main = () => {
           <button className='start-btn'>Start Using free, Forever</button>
           {/*  */}
           <p className='download-eazipay'>Download The Eazipay App</p>
-          <div className='download'>
-            <button className='download-btn'>
-              <FaGooglePlay className='googleplay-icon' />
-              Get on <br /> Google Play
-            </button>
-            <button className='download-btn'>
-              <FaApple className='googleplay-icon' />
-              Download on Apple store
-            </button>
-          </div>
+          <img src={Googlestore} alt='Googel store' />
+          <img src={Applestore} alt='Googel store' />
         </section>
         {/* Section 2 */}
         <section className='section2'>
@@ -84,13 +79,14 @@ const Main = () => {
         {/* section 4 */}
         <h1>How Eazipay Works</h1>
         <h3>Get started in 3 simple steps</h3>
+        <img src={Phonegif} alt='Free Forever image' />
         {/* Iphone image animation */} TODO:
         <h2>03 Prepare your Transaction</h2>
         <p>Run payroll: Bulk salaried and Compliance are done at once</p>
         {/* section 5 */}
         <div className='section5'>
           <h2 className='section5-heading'>
-            Free forever for your <span className="salary">salary payment</span>
+            Free forever for your <span className='salary'>salary payment</span>
           </h2>
           <p>Get started in 3 simple steps</p>
 

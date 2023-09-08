@@ -72,29 +72,6 @@ main {
   transition: transform 0.25s ease;
 }
 
-.download {
-  display: flex;
-}
-
-.download-btn {
-  background-color: red;
-  box-shadow: 0 20px 48px 0 hsla(0, 0%, 66.7%, 0.29);
-  border-radius: 9px;
-  height: 60px;
-  width: 130px;
-  font-size: 15px;
-  margin: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.googleplay-icon {
-  font-size: 20px;
-  background: pink;
-  border-radius: 50%;
-  margin-left: 12px;
-}
-
 .box-heading {
   color: #11453b;
   font-size: 20px;
