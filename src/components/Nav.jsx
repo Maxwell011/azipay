@@ -1,12 +1,3 @@
-// function Navbar() {
-//   return (
-//     <nav>
-//
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
