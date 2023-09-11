@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../css/Nav.css";
@@ -23,16 +22,17 @@ const HamburgerMenu = () => {
           <span></span>
         </button>
         <div className={`menu ${isOpen ? "open" : ""}`}>
-          <ul>
-            <Link to='/'>Azipay logo</Link>
-            <Link to='/'>Home</Link>
-            <Link to='/individual'>Individual</Link>
-            <Link to='/business'>Business</Link>
-            <Link to='/pricing'>Pricing</Link>
-            <Link to='/'>Set your payroll</Link>
-            <Link to='/login'>Login</Link>
-            <Link to='/register'>Register</Link>
-          </ul>
+          <div className='nav-link'>
+            <ul>
+              <Link to='/'>Azipay logo</Link>
+              <Link to='/'>Home</Link>
+              <Link to='/individual'>Individual</Link>
+              <Link to='/business'>Business</Link>
+              <Link to='/pricing'>Pricing</Link>
+              <Link to='/login'>Login</Link>
+              <Link to='/register'>Register</Link>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
