@@ -4,10 +4,7 @@ const Business = () => {
   return (
     <div>
       <Nav />
-      {/* section 1 */}
-      {/* TODO: */}
-
-      
+      {/* section 1 */}      
       <img src='' alt='' />
       <h2>EAZIPAY FOR BUSINESS</h2>
       <h1>Simple Payroll</h1>
