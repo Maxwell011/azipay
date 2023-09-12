@@ -6,6 +6,8 @@ const Business = () => {
       <Nav />
       {/* section 1 */}
       {/* TODO: */}
+
+      
       <img src='' alt='' />
       <h2>EAZIPAY FOR BUSINESS</h2>
       <h1>Simple Payroll</h1>
