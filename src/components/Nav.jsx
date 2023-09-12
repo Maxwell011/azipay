@@ -22,7 +22,6 @@ const HamburgerMenu = () => {
           <span></span>
         </button>
         <div className={`menu ${isOpen ? "open" : ""}`}>
-          <div className='nav-link'>
             <ul>
               <Link to='/'>Azipay logo</Link>
               <Link to='/'>Home</Link>
@@ -32,7 +31,6 @@ const HamburgerMenu = () => {
               <Link to='/login'>Login</Link>
               <Link to='/register'>Register</Link>
             </ul>
-          </div>
         </div>
       </div>
     </div>
