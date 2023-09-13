@@ -7,15 +7,17 @@ const Individual = () => {
   return (
     <div>
       <img src={IndividualHero} alt='Individual Hero' />
-      <h2>EAZIPAY FOR INDIVIDUAL</h2>
-      <h1>
-        Pay all in <span>one click!</span>
+      <h2 className='text-red-500 text-2xl'>EAZIPAY FOR INDIVIDUAL</h2>
+      <h1 className='text-5xl'>
+        Pay all in <span className='text-red-500'>one click!</span>
       </h1>
-      <p>
+      <p className='text-2xl'>
         Add your service providers, personal assistants, chauffeurs, chefs, and
         more to your Eazipay. Pay all in one click
       </p>
-      <button>Start using Free, Forever</button>
+      <button className='bg-slate-950 text-white p-5 rounded-2xl'>
+        Start using Free, Forever
+      </button>
 
       {/* Section 2 */}
       <div>
