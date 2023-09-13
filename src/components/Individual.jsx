@@ -1,11 +1,13 @@
 import { BiPhoneCall, BiWifi, BiBoltCircle } from "react-icons/bi";
 import { FaMoneyBillWave, FaTelegram } from "react-icons/fa";
+import IndividualHero from "/images/individual-hero.png";
+import Enterprise from "/images/enterprise-loans.44b241cf.png";
 
 const Individual = () => {
   return (
     <div>
       {/* Background landing image */}
-      <img src='' alt='' />
+      <img src={IndividualHero} alt='Individual Hero' />
       <h2>EAZIPAY FOR INDIVIDUAL</h2>
       <h1>
         Pay all in <span>one click!</span>
@@ -25,7 +27,7 @@ const Individual = () => {
           request a loan to cover for it.
         </p>
       </div>
-      <img src='' alt='' />
+      <img src={Enterprise} alt='Enterprise Loan' />
       {/* Section 3 */}
       <div>
         <h2>BILLS AND PAYMENTS</h2>
