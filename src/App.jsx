@@ -11,8 +11,8 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Main />
         <Routes>
+          <Route path='/' exact element={<Main />} />
           <Route path='/business' element={<Business />} />
           <Route path='/individual' element={<Individual />} />
         </Routes>

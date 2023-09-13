@@ -43,22 +43,22 @@ const Individual = () => {
             Airtime
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
-            <BiWifi />
+            <BiWifi className='bg-white h-10 w-10' />
             Data
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
-            <BiBoltCircle />
+            <BiBoltCircle className='bg-white h-10 w-10' />
             Electricity
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             Gotv/Dstv
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
-            <FaTelegram />
+            <FaTelegram className='bg-white h-10 w-10' />
             Make a Transfer
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
-            <FaMoneyBillWave />
+            <FaMoneyBillWave className='bg-white h-10 w-10' />
             Pay Salaries
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
