@@ -1,11 +1,15 @@
 import Nav from "./Nav";
+import Heroimage from "/images/hero-img.d91af7d7.png";
+import Enterprise from "/images/enterprise-loans.44b241cf.png";
+import Report from "/images/report.e1809efd.png";
+import Compliance from "/images/compliance.0c890296.png";
 
 const Business = () => {
   return (
     <div>
       <Nav />
-      {/* section 1 */}      
-      <img src='' alt='' />
+      {/* section 1 */}
+      <img src={Heroimage} alt='Hero Image' className='business-heroimage' />
       <h2>EAZIPAY FOR BUSINESS</h2>
       <h1>Simple Payroll</h1>
       <p>
@@ -14,7 +18,7 @@ const Business = () => {
       </p>
       <button>Start Using Free, Forever</button>
       {/* section 2 */}
-      <img src='' alt='' />
+      <img src={Enterprise} alt='Enterprise Loan' className='enterprise-loan' />
       <h2>ENTERPRISE LOANS</h2>
       <h1>Payroll & Enterprise loans</h1>
       <p>
@@ -22,7 +26,7 @@ const Business = () => {
         app!
       </p>
       {/* section 3*/}
-      <img src='' alt='' />
+      <img src={Report} alt='Payroll Report' className='payroll-report' />
       <h2>REPORT</h2>
       <h1>Accurate Payroll reports & Payslips</h1>
       <p>
@@ -31,7 +35,7 @@ const Business = () => {
         all in one place!{" "}
       </p>
       {/* section 4*/}
-      <img src='' alt='' />
+      <img src={Compliance} alt='Compliance' className="compliance" />
       <h2>COMPLIANCE</h2>
       <h1>Register an Remit compliances easily</h1>
       <p>
@@ -39,7 +43,6 @@ const Business = () => {
         PAYE, Pension, HMO, Insurances, NSITF, NHF.
       </p>
       {/* section 5*/}
-      <img src='' alt='' />
       <h2>EAZIPAY PAYROLL CALCULATOR</h2>
       <h1>Run payroll in Five minutes or less</h1>
       <p>
