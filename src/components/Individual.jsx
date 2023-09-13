@@ -6,7 +6,6 @@ import Enterprise from "/images/enterprise-loans.44b241cf.png";
 const Individual = () => {
   return (
     <div>
-      {/* Background landing image */}
       <img src={IndividualHero} alt='Individual Hero' />
       <h2>EAZIPAY FOR INDIVIDUAL</h2>
       <h1>
@@ -36,29 +35,33 @@ const Individual = () => {
           Pay all relevant bills, send to anyone and save your loved ones as
           beneficiaries
         </p>
-        <div className='boxes'>
-          <div className='box'>
-            <BiPhoneCall />
+        <div className=''>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+            <BiPhoneCall className='bg-white h-10 w-10 text-teal-400' />
             Airtime
           </div>
-          <div className='box'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             <BiWifi />
             Data
           </div>
-          <div className='box'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             <BiBoltCircle />
             Electricity
           </div>
-          <div className='box'>Gotv/Dstv</div>
-          <div className='box'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+            Gotv/Dstv
+          </div>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             <FaTelegram />
             Make a Transfer
           </div>
-          <div className='box'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             <FaMoneyBillWave />
             Pay Salaries
           </div>
-          <div className='box'>Get Loan</div>
+          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+            Get Loan
+          </div>
           <button>Get started now</button>
         </div>
       </div>
