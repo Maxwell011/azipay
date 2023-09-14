@@ -1,4 +1,3 @@
-import Nav from "./Nav";
 import Heroimage from "/images/hero-img.d91af7d7.png";
 import Enterprise from "/images/enterprise-loans.44b241cf.png";
 import Report from "/images/report.e1809efd.png";
@@ -7,7 +6,6 @@ import Compliance from "/images/compliance.0c890296.png";
 const Business = () => {
   return (
     <div>
-      <Nav />
       {/* section 1 */}
       <img src={Heroimage} alt='Hero Image' className='business-heroimage' />
       <h2>EAZIPAY FOR BUSINESS</h2>
