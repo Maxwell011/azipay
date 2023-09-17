@@ -12,13 +12,15 @@ const Business = () => {
         alt='Hero Image'
         className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
       />
-      <h2>EAZIPAY FOR BUSINESS</h2>
-      <h1>Simple Payroll</h1>
-      <p>
+      <h2 className='text-red-500 text-2xl'>EAZIPAY FOR BUSINESS</h2>
+      <h1 className='text-4xl'>Simple Payroll</h1>
+      <p className='text-xl'>
         Add your employee the simple way you know and run their payroll. All in
         seconds!
       </p>
-      <button>Start Using Free, Forever</button>
+      <button className='bg-slate-950 text-white p-3 h-10 text-center rounded-3xl m-5'>
+        Start Using Free, Forever
+      </button>
       {/* section 2 */}
       <img
         src={Enterprise}
