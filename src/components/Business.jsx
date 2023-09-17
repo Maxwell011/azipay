@@ -7,32 +7,38 @@ const Business = () => {
   return (
     <div>
       {/* section 1 */}
-      <img
-        src={Heroimage}
-        alt='Hero Image'
-        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
-      />
-      <h2 className='text-red-500 text-2xl'>EAZIPAY FOR BUSINESS</h2>
-      <h1 className='text-4xl'>Simple Payroll</h1>
-      <p className='text-xl'>
-        Add your employee the simple way you know and run their payroll. All in
-        seconds!
-      </p>
-      <button className='bg-slate-950 text-white p-3 h-10 text-center rounded-3xl m-5'>
-        Start Using Free, Forever
-      </button>
+      <section>
+        <img src={Heroimage} alt='Hero Image' className='max-w-full h-auto' />
+        <div className='flex items-center justify-center'>
+          <h2 className='text-red-500 text-lg flex items-center justify-center mt-6'>
+            EAZIPAY FOR BUSINESS
+          </h2>
+          <h1 className='text-4xl text-[#11453b] flex justify-center'>
+            Simple Payroll
+          </h1>
+          <p className='text-xl text-[#11453b]'>
+            Add your employee the simple way you know and run their payroll. All
+            in seconds!
+          </p>
+          <button className='bg-slate-950 text-white p-3 h-10 text-center rounded-3xl m-5'>
+            Start Using Free, Forever
+          </button>
+        </div>
+      </section>
       {/* section 2 */}
       <img
         src={Enterprise}
         alt='Enterprise Loan'
         className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
       />
-      <h2 className='text-red-500 text-2xl'>ENTERPRISE LOANS</h2>
-      <h1 className='text-4xl'>Payroll & Enterprise loans</h1>
-      <p className='text-xl'>
-        Easily access loans to cover your operations or payroll, right on your
-        app!
-      </p>
+      <div className='flex flex-col items-center justify-center'>
+        <h2 className='text-red-500 text-2xl'>ENTERPRISE LOANS</h2>
+        <h1 className='text-4xl'>Payroll & Enterprise loans</h1>
+        <p className='text-xl'>
+          Easily access loans to cover your operations or payroll, right on your
+          app!
+        </p>
+      </div>
       {/* section 3*/}
       <img
         src={Report}
