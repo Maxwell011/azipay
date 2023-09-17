@@ -7,7 +7,11 @@ const Business = () => {
   return (
     <div>
       {/* section 1 */}
-      <img src={Heroimage} alt='Hero Image' className='business-heroimage' />
+      <img
+        src={Heroimage}
+        alt='Hero Image'
+        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+      />
       <h2>EAZIPAY FOR BUSINESS</h2>
       <h1>Simple Payroll</h1>
       <p>
@@ -16,7 +20,11 @@ const Business = () => {
       </p>
       <button>Start Using Free, Forever</button>
       {/* section 2 */}
-      <img src={Enterprise} alt='Enterprise Loan' className='enterprise-loan' />
+      <img
+        src={Enterprise}
+        alt='Enterprise Loan'
+        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+      />
       <h2>ENTERPRISE LOANS</h2>
       <h1>Payroll & Enterprise loans</h1>
       <p>
@@ -24,7 +32,11 @@ const Business = () => {
         app!
       </p>
       {/* section 3*/}
-      <img src={Report} alt='Payroll Report' className='payroll-report' />
+      <img
+        src={Report}
+        alt='Payroll Report'
+        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+      />
       <h2>REPORT</h2>
       <h1>Accurate Payroll reports & Payslips</h1>
       <p>
@@ -33,7 +45,11 @@ const Business = () => {
         all in one place!{" "}
       </p>
       {/* section 4*/}
-      <img src={Compliance} alt='Compliance' className="compliance" />
+      <img
+        src={Compliance}
+        alt='Compliance'
+        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+      />
       <h2>COMPLIANCE</h2>
       <h1>Register an Remit compliances easily</h1>
       <p>
