@@ -27,9 +27,9 @@ const Business = () => {
         alt='Enterprise Loan'
         className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
       />
-      <h2>ENTERPRISE LOANS</h2>
-      <h1>Payroll & Enterprise loans</h1>
-      <p>
+      <h2 className='text-red-500 text-2xl'>ENTERPRISE LOANS</h2>
+      <h1 className='text-4xl'>Payroll & Enterprise loans</h1>
+      <p className='text-xl'>
         Easily access loans to cover your operations or payroll, right on your
         app!
       </p>
@@ -39,9 +39,9 @@ const Business = () => {
         alt='Payroll Report'
         className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
       />
-      <h2>REPORT</h2>
-      <h1>Accurate Payroll reports & Payslips</h1>
-      <p>
+      <h2 className='text-red-500 text-2xl'>REPORT</h2>
+      <h1 className='text-4xl'>Accurate Payroll reports & Payslips</h1>
+      <p className='text-xl'>
         For making intelligent business decisions, Get your payroll report,
         employee payslips, tax receipts, payroll analysis, compliance history -
         all in one place!{" "}
@@ -52,9 +52,9 @@ const Business = () => {
         alt='Compliance'
         className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
       />
-      <h2>COMPLIANCE</h2>
-      <h1>Register an Remit compliances easily</h1>
-      <p>
+      <h2 className='text-red-500 text-2xl'>COMPLIANCE</h2>
+      <h1 className='text-4xl'>Register an Remit compliances easily</h1>
+      <p className='text-xl'>
         Register your business and employees for All your statutory deductions -
         PAYE, Pension, HMO, Insurances, NSITF, NHF.
       </p>
