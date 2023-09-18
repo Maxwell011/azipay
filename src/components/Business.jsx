@@ -29,11 +29,11 @@ const Business = () => {
       <img
         src={Enterprise}
         alt='Enterprise Loan'
-        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+        className='max-w-full h-auto'
       />
       <div className='flex flex-col items-center justify-center'>
         <h2 className='text-red-500 text-2xl'>ENTERPRISE LOANS</h2>
-        <h1 className='text-4xl'>Payroll & Enterprise loans</h1>
+        <h1 className='text-3xl'>Payroll & Enterprise loans</h1>
         <p className='text-xl'>
           Easily access loans to cover your operations or payroll, right on your
           app!
@@ -43,7 +43,7 @@ const Business = () => {
       <img
         src={Report}
         alt='Payroll Report'
-        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+        className='max-w-full h-auto'
       />
       <h2 className='text-red-500 text-2xl'>REPORT</h2>
       <h1 className='text-4xl'>Accurate Payroll reports & Payslips</h1>
@@ -56,7 +56,7 @@ const Business = () => {
       <img
         src={Compliance}
         alt='Compliance'
-        className='max-w-sm rounded border bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800'
+        className='max-w-full h-auto'
       />
       <h2 className='text-red-500 text-2xl'>COMPLIANCE</h2>
       <h1 className='text-4xl'>Register an Remit compliances easily</h1>
