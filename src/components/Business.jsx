@@ -43,19 +43,23 @@ const Business = () => {
       <img src={Report} alt='Payroll Report' className='max-w-full h-auto' />
       <div className='flex flex-col items-center justify-center'>
         <h2 className='text-red-500 text-2xl'>REPORT</h2>
-        <h1 className='text-3xl'>Accurate Payroll reports & Payslips</h1>
-        <p className='text-base'>
+        <h1 className='text-3xl text-center'>
+          Accurate Payroll reports & Payslips
+        </h1>
+        <p className='text-base text-center w-80'>
           For making intelligent business decisions, Get your payroll report,
           employee payslips, tax receipts, payroll analysis, compliance history
           - all in one place!{" "}
         </p>
       </div>
       {/* section 4*/}
-      <img src={Compliance} alt='Compliance' className='max-w-full h-auto' />
+      <img src={Compliance} alt='Compliance' className='max-w-full' />
       <div className='flex flex-col items-center justify-center my-10 mx-2'>
         <h2 className='text-red-500 text-2xl'>COMPLIANCE</h2>
-        <h1 className='text-2xl'>Register an Remit compliances easily</h1>
-        <p className='text-base'>
+        <h1 className='text-2xl text-center'>
+          Register an Remit compliances easily
+        </h1>
+        <p className='text-base text-center w-10/12'>
           Register your business and employees for All your statutory deductions
           - PAYE, Pension, HMO, Insurances, NSITF, NHF.
         </p>
@@ -64,14 +68,17 @@ const Business = () => {
       <div className='flex flex-col items-center justify-center'>
         <h2>EAZIPAY PAYROLL CALCULATOR</h2>
         <h1>Run payroll in Five minutes or less</h1>
-        <p className='text-base'>
+        <p className='text-base text-center'>
           For making intelligent business decisions, Get your payroll report,
           employee payslips, tax receipts, payroll analysis, compliance history
           - all in one place!{" "}
         </p>
       </div>
-      <div className='bg-cadetblue p-10 text-center rounded-2xl m-20 h-400'>
-        <form action='' className=''>
+      <div className=''>
+        <form
+          action=''
+          className='bg-cadetblue p-10 text-center rounded-2xl m-20 h-400'
+        >
           <h2>Payroll Calculator</h2>
           <p>Calculate your payroll either by amount or percentage</p>
           {/* Double button to switch between amount and percentage */}
