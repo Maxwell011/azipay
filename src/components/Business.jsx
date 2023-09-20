@@ -16,11 +16,11 @@ const Business = () => {
           <h1 className='text-4xl text-[#11453b] flex justify-center'>
             Simple Payroll
           </h1>
-          <p className='text-xl text-[#11453b]'>
+          <p className='text-base text-[#11453b] w-72 text-center'>
             Add your employee the simple way you know and run their payroll. All
             in seconds!
           </p>
-          <button className='bg-[#11453b] text-white text-base w-135 rounded-full font-medium outline-none h-9 pl-8 pr-8 transition-transform duration-250 ease-in'>
+          <button className='bg-black text-white mt-20 text-base w-135 rounded-full font-medium outline-none h-9 pl-8 pr-8 transition-transform duration-250 ease-in'>
             Start Using Free, Forever
           </button>
         </div>
@@ -29,12 +29,12 @@ const Business = () => {
       <img
         src={Enterprise}
         alt='Enterprise Loan'
-        className='max-w-full h-auto'
+        className='max-w-full h-auto mt-36'
       />
       <div className='flex flex-col items-center justify-center'>
         <h2 className='text-red-500 text-2xl'>ENTERPRISE LOANS</h2>
-        <h1 className='text-3xl'>Payroll & Enterprise loans</h1>
-        <p className='text-xl'>
+        <h1 className='text-3xl leading-10'>Payroll & Enterprise loans</h1>
+        <p className='text-base text-center'>
           Easily access loans to cover your operations or payroll, right on your
           app!
         </p>
@@ -44,7 +44,7 @@ const Business = () => {
       <div className='flex flex-col items-center justify-center'>
         <h2 className='text-red-500 text-2xl'>REPORT</h2>
         <h1 className='text-3xl'>Accurate Payroll reports & Payslips</h1>
-        <p className='text-xl'>
+        <p className='text-base'>
           For making intelligent business decisions, Get your payroll report,
           employee payslips, tax receipts, payroll analysis, compliance history
           - all in one place!{" "}
@@ -55,7 +55,7 @@ const Business = () => {
       <div className='flex flex-col items-center justify-center my-10 mx-2'>
         <h2 className='text-red-500 text-2xl'>COMPLIANCE</h2>
         <h1 className='text-2xl'>Register an Remit compliances easily</h1>
-        <p className='text-sm'>
+        <p className='text-base'>
           Register your business and employees for All your statutory deductions
           - PAYE, Pension, HMO, Insurances, NSITF, NHF.
         </p>
@@ -64,7 +64,7 @@ const Business = () => {
       <div className='flex flex-col items-center justify-center'>
         <h2>EAZIPAY PAYROLL CALCULATOR</h2>
         <h1>Run payroll in Five minutes or less</h1>
-        <p>
+        <p className='text-base'>
           For making intelligent business decisions, Get your payroll report,
           employee payslips, tax receipts, payroll analysis, compliance history
           - all in one place!{" "}
