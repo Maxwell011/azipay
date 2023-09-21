@@ -12,7 +12,7 @@ const Individual = () => {
         <h1 className='max-w-full h-auto text-4xl'>
           Pay all in <span className='text-red-500'>one click!</span>
         </h1>
-        <p className='text-base text-center w-96'>
+        <p className='text-base text-center'>
           Add your service providers, personal assistants, chauffeurs, chefs,
           and more to your Eazipay. Pay all in one click
         </p>
@@ -24,7 +24,7 @@ const Individual = () => {
         <h1 className='text-4xl text-center'>
           Loans,<span className='text-red-500'>wherever you need them</span>{" "}
         </h1>
-        <p className='text-center'>
+        <p className='text-center w-96'>
           Whenever you fall short of your monthly payroll budget you may easily
           request a loan to cover for it.
         </p>
@@ -36,16 +36,17 @@ const Individual = () => {
       />
       {/* Section 3 */}
       <div className='flex items-center flex-col justify-center text-center'>
-        <h2 className=''>BILLS AND PAYMENTS</h2>
-        <h1 className=''>Fast Transfer, Bills and Payments</h1>
-        <p className=''>
+        <h2 className='text-red-500'>BILLS AND PAYMENTS</h2>
+        <h1 className='text-4xl m-10'>Fast Transfer, Bills and Payments</h1>
+        <p className='w-96 text-center'>
           Pay all relevant bills, send to anyone and save your loved ones as
           beneficiaries
         </p>
         <div className=''>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             <BiPhoneCall className='bg-white h-10 w-10 text-teal-400' />
-            Airtime
+            {/* background: #f2f1f1; border-radius: 12px; width: 60px; height: 60px;
+            display: grid; place-items: center; margin-bottom: 14px; Airtime */}
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
             <BiWifi className='bg-white h-10 w-10' />
