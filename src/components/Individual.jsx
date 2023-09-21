@@ -44,8 +44,8 @@ const Individual = () => {
         </p>
         <div className=''>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
-            <BiPhoneCall className='bg-white h-10 w-10 text-teal-400' />
-            {/* background: #f2f1f1; border-radius: 12px; width: 60px; height: 60px;
+            <BiPhoneCall className='bg-[#f2f1f1] h-10 w-10 text-teal-400' />
+            {/* background: ; border-radius: 12px; width: 60px; height: 60px;
             display: grid; place-items: center; margin-bottom: 14px; Airtime */}
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
