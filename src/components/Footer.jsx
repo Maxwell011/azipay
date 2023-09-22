@@ -18,6 +18,7 @@ const Footer = () => {
         </div>
 
         <div className='services'>
+        <div className='bottom-footer'>
           <div>
             <p className='contact'>Product</p>
             <ul>
@@ -43,6 +44,7 @@ const Footer = () => {
             <li>Career</li>
             <li>Customer Stories</li>
           </ul>
+        </div>
         </div>
         <div className=''>
           <p>Azipay logo</p>

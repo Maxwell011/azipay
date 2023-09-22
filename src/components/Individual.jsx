@@ -47,29 +47,31 @@ const Individual = () => {
             <BiPhoneCall className='bg-[#f2f1f1] h-10 w-10 text-teal-400 ' />
             Airtime
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <BiWifi className='bg-white h-10 w-10' />
             Data
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <BiBoltCircle className='bg-white h-10 w-10' />
             Electricity
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             Gotv/Dstv
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <FaTelegram className='bg-white h-10 w-10' />
             Make a Transfer
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <FaMoneyBillWave className='bg-white h-10 w-10' />
             Pay Salaries
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-40 rounded-lg'>
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             Get Loan
           </div>
-          <button>Get started now</button>
+          <button className='w-48 bg-black text-white rounded-3xl p-2'>
+            Get started now
+          </button>
         </div>
       </div>
     </div>

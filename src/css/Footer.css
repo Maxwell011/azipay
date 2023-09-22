@@ -1,9 +1,16 @@
 footer {
-  margin: 0 100px;
+  /* margin: 0 100px; */
+  /* text-align: center; */
+}
+
+.bottom-footer {
+  /* margin: 0 100px; */
 }
 
 .contact-us {
   margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .contact {
@@ -21,6 +28,7 @@ footer {
 
 .number {
   margin-bottom: 9px;
+  margin-top: 10px;
 }
 
 .services {
@@ -46,9 +54,10 @@ footer {
 
 .email-input {
   border: 1px solid pink;
-  border-radius: 10px;
+  border-radius: 15px;
   height: 30px;
   padding: 20px;
+  width: 90%;
 }
 
 /* New social media icon */
@@ -92,6 +101,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg) translateY(2px);
+  transform: translate3d(0px, 0px, 15px) perspective(180px) rotateX(-35deg)
+    translateY(2px);
   border-radius: 50%;
 }
