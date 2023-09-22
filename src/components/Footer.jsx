@@ -1,4 +1,4 @@
-import '../css/Footer.css'
+import "../css/Footer.css";
 
 const Footer = () => {
   return (
@@ -18,38 +18,41 @@ const Footer = () => {
         </div>
 
         <div className='services'>
-        <div className='bottom-footer'>
-          <div>
-            <p className='contact'>Product</p>
+          <div className='bottom-footer'>
+            <div>
+              <p className='contact'>Product</p>
+              <ul>
+                <li>Individual</li>
+                <li>Business</li>
+                <l className='desktop'>Request Demo</l>
+                <li className='desktop'>Pricing</li>
+              </ul>
+            </div>
+            <div>
+              <p className='contact'>Legal</p>
+              <ul>
+                <li>Privacy Policy</li>
+                <li>Terms Of Services</li>
+              </ul>
+            </div>
+          </div>
+          <div className='desktop'>
+            <p>Resources</p>
             <ul>
-              <li>Individual</li>
-              <li>Business</li>
-              <l className='desktop'>Request Demo</l>
-              <li className='desktop'>Pricing</li>
+              <li>FAQs</li>
+              <li>Blog</li>
+              <li>Career</li>
+              <li>Customer Stories</li>
             </ul>
           </div>
-          <div>
-            <p className='contact'>Legal</p>
-            <ul>
-              <li>Privacy Policy</li>
-              <li>Terms Of Services</li>
-            </ul>
-          </div>
-        </div>
-        <div className='desktop'>
-          <p>Resources</p>
-          <ul>
-            <li>FAQs</li>
-            <li>Blog</li>
-            <li>Career</li>
-            <li>Customer Stories</li>
-          </ul>
-        </div>
         </div>
         <div className=''>
-          <p>Azipay logo</p>
-          <p>&copy; 2023 Your Website. All rights reserved.</p>
-          
+          <div className=''>
+            <h3>Azipay logo</h3>
+          </div>
+          <div className=''>
+            <h3>&copy; 2023 Your Website. All rights reserved.</h3>
+          </div>
         </div>
         <div className='parent'>
           <div className='child child-1'>
