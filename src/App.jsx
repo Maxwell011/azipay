@@ -5,16 +5,22 @@ import Main from "./components/Main";
 import Navbar from "./components/Nav";
 import Business from "./components/Business";
 import Individual from "./components/Individual";
+import TermsOfUse from "./components/TermsOfUse";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        {/* <TermsOfUse />
+        <PrivacyPolicy /> */}
         <Routes>
           <Route path='/' exact element={<Main />} />
           <Route path='/business' element={<Business />} />
           <Route path='/individual' element={<Individual />} />
+          <Route path='/terms' element={<TermsOfUse />} />
+          <Route path='/privacy' element={<PrivacyPolicy />} />
         </Routes>
         <Footer />
       </Router>

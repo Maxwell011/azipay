@@ -1,4 +1,5 @@
 import "../css/Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -31,8 +32,13 @@ const Footer = () => {
             <div>
               <p className='contact'>Legal</p>
               <ul>
-                <li>Privacy Policy</li>
-                <li>Terms Of Services</li>
+                <Link to='/privacy'>
+                  {" "}
+                  <li>Privacy Policy</li>
+                </Link>
+                <Link to='/terms'>
+                  <li>Terms Of Services</li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -51,8 +57,8 @@ const Footer = () => {
             <h3>Azipay logo</h3>
           </div>
           <div className='copyright'>
-            <h3 className=""> Copyright &copy; 2023 Eazipay.</h3>
-            <h3 className="">All rights reserved.</h3>
+            <h3 className=''> Copyright &copy; 2023 Eazipay.</h3>
+            <h3 className=''>All rights reserved.</h3>
           </div>
         </div>
         <div className='parent'>
