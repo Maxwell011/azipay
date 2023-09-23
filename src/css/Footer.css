@@ -22,8 +22,15 @@ footer {
   color: #212121;
 }
 
+.copyright {
+  text-align: center;
+}
+
+.azi-logo {
+  text-align: center;
+}
+
 .gmail {
-  /* font-size:20px; */
   font-size: 18px;
   align-items: center;
   margin-bottom: 9px;

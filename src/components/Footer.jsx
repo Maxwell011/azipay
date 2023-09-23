@@ -47,11 +47,12 @@ const Footer = () => {
           </div>
         </div>
         <div className=''>
-          <div className=''>
+          <div className='azi-logo'>
             <h3>Azipay logo</h3>
           </div>
-          <div className=''>
-            <h3>&copy; 2023 Your Website. All rights reserved.</h3>
+          <div className='copyright'>
+            <h3 className=""> Copyright &copy; 2023 Eazipay.</h3>
+            <h3 className="">All rights reserved.</h3>
           </div>
         </div>
         <div className='parent'>
