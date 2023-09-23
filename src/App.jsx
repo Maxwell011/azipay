@@ -13,8 +13,6 @@ function App() {
     <>
       <Router>
         <Navbar />
-        {/* <TermsOfUse />
-        <PrivacyPolicy /> */}
         <Routes>
           <Route path='/' exact element={<Main />} />
           <Route path='/business' element={<Business />} />
