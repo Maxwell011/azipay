@@ -56,19 +56,25 @@ const Individual = () => {
             </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
-            <BiBoltCircle className='bg-white h-10 w-10' />
-            Electricity
+            <div className='flex flex-col items-center'>
+              <BiBoltCircle className='bg-white h-10 w-10' />
+              Electricity
+            </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             Gotv/Dstv
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg '>
-            <FaTelegram className='bg-white h-10 w-10 ' />
-            Make a Transfer
+            <div className='flex flex-col items-center'>
+              <FaTelegram className='bg-white h-10 w-10 ' />
+              Make a Transfer
+            </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
-            <FaMoneyBillWave className='bg-white h-10 w-10' />
-            Pay Salaries
+            <div className='flex flex-col items-center'>
+              <FaMoneyBillWave className='bg-white h-10 w-10' />
+              Pay Salaries
+            </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             Get Loan
