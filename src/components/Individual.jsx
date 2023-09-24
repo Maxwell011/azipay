@@ -44,20 +44,21 @@ const Individual = () => {
         </p>
         <div className=''>
           <div className='bg-red-800 p-10 m-10 h-36 w-48 rounded-lg'>
+            {/* p-10 rounded-10 h-45 w-45 */}
             <div className='flex flex-col items-center'>
-              <BiPhoneCall className='bg-[#f2f1f1] h-10 w-10 text-teal-400 ' />
+              <BiPhoneCall className='bg-[#f2f1f1] h-14 w-14 text-teal-400 text-base rounded-lg p-3' />
               Airtime
             </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <div className='flex flex-col items-center'>
-              <BiWifi className='bg-white h-10 w-10' />
+              <BiWifi className='text-purple-900  h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3' />
               Data
             </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <div className='flex flex-col items-center'>
-              <BiBoltCircle className='bg-white h-10 w-10' />
+              <BiBoltCircle className='h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3 text-yellow-500' />
               Electricity
             </div>
           </div>
@@ -66,13 +67,13 @@ const Individual = () => {
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg '>
             <div className='flex flex-col items-center'>
-              <FaTelegram className='bg-white h-10 w-10 ' />
+              <FaTelegram className='text-green-700 h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3 ' />
               Make a Transfer
             </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <div className='flex flex-col items-center'>
-              <FaMoneyBillWave className='bg-white h-10 w-10' />
+              <FaMoneyBillWave className='text-slate-600 h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3' />
               Pay Salaries
             </div>
           </div>
