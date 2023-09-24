@@ -9,6 +9,7 @@
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
   position: relative;
   overflow: hidden;
+  margin: 80px 100px;
 }
 
 .form_main::before {
