@@ -7,6 +7,7 @@ import Business from "./components/Business";
 import Individual from "./components/Individual";
 import TermsOfUse from "./components/TermsOfUse";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/individual' element={<Individual />} />
           <Route path='/terms' element={<TermsOfUse />} />
           <Route path='/privacy' element={<PrivacyPolicy />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
         <Footer />
       </Router>
