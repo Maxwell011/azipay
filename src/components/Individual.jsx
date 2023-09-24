@@ -44,12 +44,16 @@ const Individual = () => {
         </p>
         <div className=''>
           <div className='bg-red-800 p-10 m-10 h-36 w-48 rounded-lg'>
-            <BiPhoneCall className='bg-[#f2f1f1] h-10 w-10 text-teal-400 ' />
-            Airtime
+            <div className='flex flex-col items-center'>
+              <BiPhoneCall className='bg-[#f2f1f1] h-10 w-10 text-teal-400 ' />
+              Airtime
+            </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
-            <BiWifi className='bg-white h-10 w-10' />
-            Data
+            <div className='flex flex-col items-center'>
+              <BiWifi className='bg-white h-10 w-10' />
+              Data
+            </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             <BiBoltCircle className='bg-white h-10 w-10' />
@@ -58,8 +62,8 @@ const Individual = () => {
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
             Gotv/Dstv
           </div>
-          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
-            <FaTelegram className='bg-white h-10 w-10' />
+          <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg '>
+            <FaTelegram className='bg-white h-10 w-10 ' />
             Make a Transfer
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
