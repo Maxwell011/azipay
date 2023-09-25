@@ -2,6 +2,7 @@ import Heroimage from "/images/hero-img.d91af7d7.png";
 import Enterprise from "/images/enterprise-loans.44b241cf.png";
 import Report from "/images/report.e1809efd.png";
 import Compliance from "/images/compliance.0c890296.png";
+import "../css/Business.css"
 
 const Business = () => {
   return (
@@ -74,14 +75,12 @@ const Business = () => {
           - all in one place!{" "}
         </p>
       </div>
-      <div className=''>
-        <form
-          action=''
-          className='bg-cadetblue p-10 text-center rounded-2xl m-20 h-400'
-        >
-          <h2>Payroll Calculator</h2>
-          <p>Calculate your payroll either by amount or percentage</p>
+      <form action='' className=''>
+        <div className='business-form'>
+          <h2 className="payroll-heading">Payroll Calculator</h2>
+          <p className="form-intro">Calculate your payroll either by amount or percentage</p>
           {/* Double button to switch between amount and percentage */}
+          
           <input type='text' name='' id='' placeholder='Total Taxable Salary' />
           <label htmlFor=''>Allowances</label>
           <input type='text' placeholder='Basic' />
@@ -98,8 +97,8 @@ const Business = () => {
             </label>
           </div>
           <button className=''>Run Payroll</button>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   );
 };
