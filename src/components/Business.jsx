@@ -80,7 +80,12 @@ const Business = () => {
           <h2 className="payroll-heading">Payroll Calculator</h2>
           <p className="form-intro">Calculate your payroll either by amount or percentage</p>
           {/* Double button to switch between amount and percentage */}
-          
+          <div className="switch-btn">
+            <ul>
+              <li>By Amount</li>
+              <li>By Percentage</li>
+            </ul>
+          </div>
           <input type='text' name='' id='' placeholder='Total Taxable Salary' />
           <label htmlFor=''>Allowances</label>
           <input type='text' placeholder='Basic' />
