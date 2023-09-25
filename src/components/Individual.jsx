@@ -1,5 +1,6 @@
 import { BiPhoneCall, BiWifi, BiBoltCircle } from "react-icons/bi";
 import { FaMoneyBillWave, FaTelegram } from "react-icons/fa";
+import { FiMonitor } from "react-icons/fi";
 import IndividualHero from "/images/individual-hero.png";
 import Enterprise from "/images/enterprise-loans.44b241cf.png";
 
@@ -63,7 +64,10 @@ const Individual = () => {
             </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
-            Gotv/Dstv
+            <div className='flex flex-col items-center'>
+              <FiMonitor className='h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3 text-slate-400' />
+              Gotv/Dstv
+            </div>
           </div>
           <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg '>
             <div className='flex flex-col items-center'>
