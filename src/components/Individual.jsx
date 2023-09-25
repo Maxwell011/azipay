@@ -45,7 +45,6 @@ const Individual = () => {
         </p>
         <div className=''>
           <div className='bg-red-800 p-10 m-10 h-36 w-48 rounded-lg'>
-            {/* p-10 rounded-10 h-45 w-45 */}
             <div className='flex flex-col items-center'>
               <BiPhoneCall className='bg-[#f2f1f1] h-14 w-14 text-teal-400 text-base rounded-lg p-3' />
               Airtime
