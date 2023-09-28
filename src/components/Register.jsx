@@ -13,7 +13,7 @@ const Register = () => {
         <div className=''>
           <h2>Business Account</h2>
           <p>
-            For registered business SMEs, startups, corporates and large
+            For registered business SMEs, startups, corporate and large
             companies
           </p>
         </div>
