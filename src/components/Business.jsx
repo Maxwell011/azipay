@@ -79,7 +79,6 @@ const Business = () => {
         <div className='business-form'>
           <h2 className="payroll-heading">Payroll Calculator</h2>
           <p className="form-intro">Calculate your payroll either by amount or percentage</p>
-          {/* Double button to switch between amount and percentage */}
           <div className="switch-btn">
               <div className="amount">By Amount</div>
               <div className="percentage">By Percentage</div>
