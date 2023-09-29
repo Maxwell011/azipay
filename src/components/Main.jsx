@@ -105,17 +105,6 @@ const Main = () => {
 
           {/* Image */}
           <img src={Freeforever} alt='Free Forever image' />
-          {/* <p className='download-eazipay'>Download The Eazipay App</p>
-        <div className='download'>
-          <button className='download-btn'>
-            <FaGooglePlay className='googleplay-icon' />
-            Get on <br /> Google Play
-          </button>
-          <button className='download-btn'>
-            <FaApple className='googleplay-icon' />
-            Download on Apple store
-          </button>
-        </div> */}
         </div>
         {/* Section 6 */}
         <div className='section-six'>
