@@ -128,7 +128,7 @@ const Main = () => {
                     type='text'
                     className='input'
                   />
-                  <span>Firstname</span>
+                  <span>FirstName</span>
                 </label>
 
                 <label>
@@ -138,7 +138,7 @@ const Main = () => {
                     type='text'
                     className='input'
                   />
-                  <span>Lastname</span>
+                  <span>LastName</span>
                 </label>
               </div>
 
