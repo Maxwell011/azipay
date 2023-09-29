@@ -123,8 +123,8 @@ const Main = () => {
               <div className='flex'>
                 <label>
                   <input
-                    required=''
-                    placeholder=''
+                    required
+                    placeholder='Enter FirstName'
                     type='text'
                     className='input'
                   />
@@ -133,8 +133,8 @@ const Main = () => {
 
                 <label>
                   <input
-                    required=''
-                    placeholder=''
+                    required
+                    placeholder='Enter Lastname'
                     type='text'
                     className='input'
                   />
@@ -144,8 +144,8 @@ const Main = () => {
 
               <label>
                 <input
-                  required=''
-                  placeholder=''
+                  required
+                  placeholder='Enter Email'
                   type='email'
                   className='input'
                 />
@@ -154,8 +154,8 @@ const Main = () => {
 
               <label>
                 <input
-                  required=''
-                  placeholder=''
+                  required
+                  placeholder='Enter Password'
                   type='password'
                   className='input'
                 />
@@ -163,8 +163,8 @@ const Main = () => {
               </label>
               <label>
                 <input
-                  required=''
-                  placeholder=''
+                  required
+                  placeholder='Confirm password'
                   type='password'
                   className='input'
                 />
