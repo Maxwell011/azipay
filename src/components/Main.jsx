@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../App.css";
 import Freeforever from "/images/free-forever.9a58e2e5.png";
 import Phonegif from "/images/payroll.372ea3c0.gif";
@@ -171,7 +172,7 @@ const Main = () => {
               </label>
               <button className='submit'>Submit</button>
               <p className='signin'>
-                Already have an account ? <a href='#'>Signin</a>{" "}
+                Already have an account ? <Link to="/signin">Signin</Link>{" "}
               </p>
             </form>
           </div>
