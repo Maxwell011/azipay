@@ -103,7 +103,6 @@ const Main = () => {
           </h2>
           <p>Get started in 3 simple steps</p>
 
-          {/* Image */}
           <img src={Freeforever} alt='Free Forever image' />
         </div>
         {/* Section 6 */}
@@ -172,7 +171,7 @@ const Main = () => {
               </label>
               <button className='submit'>Submit</button>
               <p className='signin'>
-                Already have an acount ? <a href='#'>Signin</a>{" "}
+                Already have an account ? <a href='#'>Signin</a>{" "}
               </p>
             </form>
           </div>
