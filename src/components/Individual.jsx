@@ -17,7 +17,7 @@ const Individual = () => {
           Add your service providers, personal assistants, chauffeurs, chefs,
           and more to your Eazipay. Pay all in one click
         </p>
-        <button className='bg-slate-950 text-white p-3 h-10 text-center rounded-3xl m-5'>
+        <button className='bg-slate-950 text-white p-5 h-10 text-center rounded-3xl m-5'>
           Start using Free, Forever
         </button>
         {/* Section 2 */}
