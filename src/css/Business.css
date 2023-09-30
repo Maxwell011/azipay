@@ -45,7 +45,13 @@
 .total {
   background: chartreuse;
   width: 90%;
-  padding: 8px;
+  padding: 11px;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.allowance {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
