@@ -61,5 +61,8 @@
 }
 
 .input-div {
-  
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  width: 50%;
 }
