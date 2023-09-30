@@ -77,20 +77,38 @@ const Business = () => {
       </div>
       <form action='' className=''>
         <div className='business-form'>
-          <h2 className="payroll-heading">Payroll Calculator</h2>
-          <p className="form-intro">Calculate your payroll either by amount or percentage</p>
-          <div className="switch-btn">
-              <div className="amount">By Amount</div>
-              <div className="percentage">By Percentage</div>
+          <h2 className='payroll-heading'>Payroll Calculator</h2>
+          <p className='form-intro'>
+            Calculate your payroll either by amount or percentage
+          </p>
+          <div className='switch-btn'>
+            <div className='amount'>By Amount</div>
+            <div className='percentage'>By Percentage</div>
           </div>
-          <input type='text' name=''className="total" id='' placeholder='Total Taxable Salary' />
+          <input
+            type='text'
+            name=''
+            className='total'
+            id=''
+            placeholder='Total Taxable Salary'
+          />
           <br />
-          <label htmlFor='' className="allowance">Allowances</label>
+          <label htmlFor='' className='allowance'>
+            Allowances
+          </label>
           <br />
-          <input type='text' placeholder='Basic' />
-          <input type='text' placeholder='Housing' />
-          <input type='text' placeholder='Transport' />
-          <input type='text' placeholder='Others' />
+          <div className='input-div'>
+            <input type='text' placeholder='Basic' className='small-input' />
+            <input type='text' placeholder='Housing' className='small-input' />
+            <br />
+
+            <input
+              type='text'
+              placeholder='Transport'
+              className='small-input'
+            />
+            <input type='text' placeholder='Others' className='small-input' />
+          </div>
           <label htmlFor=''>Deductions</label>
           <input type='text' placeholder='HMO ' />
           <div className='cl-toggle-switch'>
