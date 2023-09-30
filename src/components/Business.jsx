@@ -85,7 +85,8 @@ const Business = () => {
           </div>
           <input type='text' name=''className="total" id='' placeholder='Total Taxable Salary' />
           <br />
-          <label htmlFor=''>Allowances</label>
+          <label htmlFor='' className="allowance">Allowances</label>
+          <br />
           <input type='text' placeholder='Basic' />
           <input type='text' placeholder='Housing' />
           <input type='text' placeholder='Transport' />
