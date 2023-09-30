@@ -1,4 +1,4 @@
-import Heroimage from "/images/hero-img.d91af7d7.png";
+import HeroImage from "/images/hero-img.d91af7d7.png";
 import Enterprise from "/images/enterprise-loans.44b241cf.png";
 import Report from "/images/report.e1809efd.png";
 import Compliance from "/images/compliance.0c890296.png";
@@ -9,7 +9,7 @@ const Business = () => {
     <div>
       {/* section 1 */}
       <section>
-        <img src={Heroimage} alt='Hero Image' className='max-w-full h-auto' />
+        <img src={HeroImage} alt='Hero Image' className='max-w-full h-auto' />
         <div className='flex items-center flex-col justify-center'>
           <h2 className='text-red-500 text-lg flex items-center justify-center mt-6'>
             EAZIPAY FOR BUSINESS
