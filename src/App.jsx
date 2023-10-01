@@ -6,8 +6,8 @@ import Navbar from "./components/Nav";
 import Business from "./components/Business";
 import Individual from "./components/Individual";
 import TermsOfUse from "./components/TermsOfUse";
-import PrivacyPolicy from "./components/PrivacyPolicy";
-import Login from "./components/Login";
+// import PrivacyPolicy from "./components/PrivacyPolicy";
+// import Login from "./components/Login";
 
 function App() {
   return (
