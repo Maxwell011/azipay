@@ -19,8 +19,8 @@ function App() {
           <Route path='/business' element={<Business />} />
           <Route path='/individual' element={<Individual />} />
           <Route path='/terms' element={<TermsOfUse />} />
-          <Route path='/privacy' element={<PrivacyPolicy />} />
-          <Route path='/login' element={<Login />} />
+          {/* <Route path='/privacy' element={<PrivacyPolicy />} />
+          <Route path='/login' element={<Login />} /> */}
         </Routes>
         <Footer />
       </Router>
