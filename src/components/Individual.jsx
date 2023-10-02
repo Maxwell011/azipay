@@ -7,7 +7,11 @@ import Enterprise from "/images/enterprise-loans.44b241cf.png";
 const Individual = () => {
   return (
     <div>
-      <img src={IndividualHero} alt='Individual Hero' />
+      <img
+        src={IndividualHero}
+        alt='Individual Hero'
+        className='bg-[#ffeeec]'
+      />
       <div className='flex items-center flex-col justify-center'>
         <h2 className='text-red-500 text-lg'>EAZIPAY FOR INDIVIDUAL</h2>
         <h1 className='max-w-full h-auto text-4xl'>
