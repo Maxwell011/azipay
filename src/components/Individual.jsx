@@ -21,7 +21,7 @@ const Individual = () => {
           Add your service providers, personal assistants, chauffeurs, chefs,
           and more to your Eazipay. Pay all in one click
         </p>
-        <button className='bg-slate-950 text-white p-5 h-10 text-center rounded-3xl m-5'>
+        <button className='bg-slate-950 text-white p-3 h-10 text-center rounded-3xl m-5'>
           Start using Free, Forever
         </button>
         {/* Section 2 */}
@@ -29,7 +29,7 @@ const Individual = () => {
         <h1 className='text-4xl text-center'>
           Loans,<span className='text-red-500'>wherever you need them</span>{" "}
         </h1>
-        <p className='text-center w-96'>
+        <p className='text-center w-96 mb-5'>
           Whenever you fall short of your monthly payroll budget you may easily
           request a loan to cover for it.
         </p>
