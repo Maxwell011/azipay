@@ -50,43 +50,43 @@ const Individual = () => {
             beneficiaries
           </p>
           <div>
-            <div className='bg-red-800 p-10 m-10 h-36 w-48 rounded-lg'>
+            <div className='bg-white p-10 m-10 h-36 w-48 rounded-lg'>
               <div className='flex flex-col items-center'>
                 <BiPhoneCall className='bg-[#f2f1f1] h-14 w-14 text-teal-400 text-base rounded-lg p-3' />
                 Airtime
               </div>
             </div>
-            <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
+            <div className='bg-white p-10 m-10 h-40 w-48 rounded-lg'>
               <div className='flex flex-col items-center'>
                 <BiWifi className='text-purple-900  h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3' />
                 Data
               </div>
             </div>
-            <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
+            <div className='bg-white p-10 m-10 h-40 w-48 rounded-lg'>
               <div className='flex flex-col items-center'>
                 <BiBoltCircle className='h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3 text-yellow-500' />
                 Electricity
               </div>
             </div>
-            <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
+            <div className='bg-white p-10 m-10 h-40 w-48 rounded-lg'>
               <div className='flex flex-col items-center'>
                 <FiMonitor className='h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3 text-slate-400' />
                 Gotv/Dstv
               </div>
             </div>
-            <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg '>
+            <div className='bg-white p-10 m-10 h-40 w-48 rounded-lg '>
               <div className='flex flex-col items-center'>
                 <FaTelegram className='text-green-700 h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3 ' />
                 Make a Transfer
               </div>
             </div>
-            <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
+            <div className='bg-white p-10 m-10 h-40 w-48 rounded-lg'>
               <div className='flex flex-col items-center'>
                 <FaMoneyBillWave className='text-slate-600 h-14 w-14 bg-[#f2f1f1]  text-base rounded-lg p-3' />
                 Pay Salaries
               </div>
             </div>
-            <div className='bg-red-800 p-10 m-10 h-40 w-48 rounded-lg'>
+            <div className='bg-white p-10 m-10 h-40 w-48 rounded-lg'>
               <div className='flex flex-col items-center'>
                 <img
                   src={loanImage}
