@@ -26,6 +26,7 @@ const Individual = () => {
           Start using Free, Forever
         </button>
         {/* Section 2 */}
+        <section></section>
         <h2 className='text-lg text-red-500'>LOANS</h2>
         <h1 className='text-4xl text-center'>
           Loans,<span className='text-red-500'>wherever you need them</span>{" "}
