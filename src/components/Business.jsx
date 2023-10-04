@@ -100,8 +100,14 @@ const Business = () => {
           </label>
           <br />
           <div className='input-div'>
-            <input type='text' placeholder='Basic' className='small-input' />
-            <input type='text' placeholder='Housing' className='small-input' />
+            <div className='first-input'>
+              <input type='text' placeholder='Basic' className='small-input try' />
+              <input
+                type='text'
+                placeholder='Housing'
+                className='small-input try'
+              />
+            </div>
             <br />
 
             <input
