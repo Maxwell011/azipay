@@ -66,3 +66,7 @@
   flex-direction: column;
   width: 50%;
 }
+
+.business-btn {
+padding-bottom: 5rem;
+}
