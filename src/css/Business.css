@@ -45,8 +45,9 @@
 .total {
   background: chartreuse;
   width: 90%;
+  height: 48px;
   padding: 11px;
-  border-radius: 10px;
+  border-radius: 1rem;
   margin-bottom: 10px;
 }
 
@@ -57,6 +58,9 @@
 }
 
 .small-input {
+  height: 48px;
+  border-radius: 1rem;
+  padding: 20px;
   background: purple;
 }
 
@@ -68,5 +72,5 @@
 }
 
 .business-btn {
-padding-bottom: 5rem;
+  padding-bottom: 5rem;
 }
