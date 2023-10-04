@@ -21,9 +21,11 @@ const Business = () => {
             Add your employee the simple way you know and run their payroll. All
             in seconds!
           </p>
-          <button className='bg-black text-white mt-20 text-base w-135 rounded-full font-medium outline-none h-9 pl-8 pr-8 transition-transform duration-250 ease-in'>
-            Start Using Free, Forever
-          </button>
+          <div className='business-btn'>
+            <button className='bg-black text-white mt-20 text-base w-135 rounded-full font-medium outline-none h-9 pl-8 pr-8 transition-transform duration-250 ease-in'>
+              Start Using Free, Forever
+            </button>
+          </div>
         </div>
       </section>
       {/* section 2 */}
