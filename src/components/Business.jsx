@@ -121,7 +121,9 @@ const Business = () => {
             />
             <input type='text' placeholder='Others' className='small-input' />
           </div>
-          <label htmlFor=''>Deductions</label>
+          <label htmlFor='' className='allowance'>
+            Deductions
+          </label>
           <br />
           <input type='text' placeholder='HMO' className='total' />
           <div className='cl-toggle-switch'>
