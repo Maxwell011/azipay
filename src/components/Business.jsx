@@ -118,6 +118,7 @@ const Business = () => {
             <input type='text' placeholder='Others' className='small-input' />
           </div>
           <label htmlFor=''>Deductions</label>
+          <br />
           <input type='text' placeholder='HMO ' />
           <div className='cl-toggle-switch'>
             <label className='cl-switch'>
