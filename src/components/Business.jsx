@@ -101,7 +101,11 @@ const Business = () => {
           <br />
           <div className='input-div'>
             <div className='first-input'>
-              <input type='text' placeholder='Basic' className='small-input try' />
+              <input
+                type='text'
+                placeholder='Basic'
+                className='small-input try'
+              />
               <input
                 type='text'
                 placeholder='Housing'
@@ -119,7 +123,7 @@ const Business = () => {
           </div>
           <label htmlFor=''>Deductions</label>
           <br />
-          <input type='text' placeholder='HMO ' />
+          <input type='text' placeholder='HMO' className='total' />
           <div className='cl-toggle-switch'>
             <label className='cl-switch'>
               PAYE
