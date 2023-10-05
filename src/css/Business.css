@@ -2,7 +2,7 @@
   padding: 10px;
   text-align: center;
   margin: 20px;
-  height: 540px;
+  height: 800px;
   border: 1px solid #e7e8e7;
   box-shadow: 0 20px 48px hsla(0, 0%, 66.7%, 0.29);
   border-radius: 32px;
@@ -62,6 +62,7 @@
   height: 48px;
   border-radius: 1rem;
   padding: 20px;
+  width: 140px;
   background: purple;
 }
 
