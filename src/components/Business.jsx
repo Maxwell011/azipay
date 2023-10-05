@@ -128,13 +128,14 @@ const Business = () => {
           </label>
           <br />
           <input type='text' placeholder='HMO' className='total' />
-          <div className="toggle-button-cover">
-        <div id="button-3" className="check-btn r">
-          <input className="checkbox" type="checkbox"/>
-          <div className="knobs"></div>
-          <div className="layer"></div>
-        </div>
-      </div>
+          <div className='toggle-button-cover'>
+              PAYE
+            <div id='button-3' className='check-btn r'>
+              <input className='checkbox' type='checkbox' />
+              <div className='knobs'></div>
+              <div className='layer'></div>
+            </div>
+          </div>
           <button className=''>Run Payroll</button>
         </div>
       </form>
