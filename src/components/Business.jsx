@@ -143,3 +143,5 @@ const Business = () => {
   );
 };
 export default Business;
+
+// Things I have to do tommorow is this I have to add a label or a text berfore the checkbox in the business page and fix the stylings or change it 
