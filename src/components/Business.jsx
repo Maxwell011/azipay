@@ -114,25 +114,21 @@ const Business = () => {
             </div>
             <br />
 
-            <input
-              type='text'
-              placeholder='Transport'
-              className='small-input'
-            />
-            <input type='text' placeholder='Others' className='small-input' />
+            <div className='first-input'>
+              <input
+                type='text'
+                placeholder='Transport'
+                className='small-input'
+              />
+              <input type='text' placeholder='Others' className='small-input' />
+            </div>
           </div>
           <label htmlFor='' className='allowance'>
             Deductions
           </label>
           <br />
           <input type='text' placeholder='HMO' className='total' />
-          <div className='cl-toggle-switch'>
-            <label className='cl-switch'>
-              PAYE
-              <input type='checkbox' />
-              <span></span>
-            </label>
-          </div>
+          <div className='cl-toggle-switch'></div>
           <button className=''>Run Payroll</button>
         </div>
       </form>
