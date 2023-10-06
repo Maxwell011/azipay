@@ -68,120 +68,138 @@ const Business = () => {
         </p>
       </div>
       {/* section 5*/}
-      <div className='flex flex-col items-center justify-center'>
-        <h2>EAZIPAY PAYROLL CALCULATOR</h2>
-        <h1>Run payroll in Five minutes or less</h1>
-        <p className='text-base text-center'>
-          For making intelligent business decisions, Get your payroll report,
-          employee payslips, tax receipts, payroll analysis, compliance history
-          - all in one place!{" "}
-        </p>
-      </div>
-      <form action='' className=''>
-        <div className='business-form'>
-          <h2 className='payroll-heading'>Payroll Calculator</h2>
-          <p className='form-intro'>
-            Calculate your payroll either by amount or percentage
+      <section className='section-5'>
+        <div className='flex flex-col items-center justify-center'>
+          <h2>EAZIPAY PAYROLL CALCULATOR</h2>
+          <h1>Run payroll in Five minutes or less</h1>
+          <p className='text-base text-center'>
+            For making intelligent business decisions, Get your payroll report,
+            employee payslips, tax receipts, payroll analysis, compliance
+            history - all in one place!{" "}
           </p>
-          <div className='mid-form'>
-            <div className='switch-btn'>
-              <div className='amount'>By Amount</div>
-              <div className='percentage'>By Percentage</div>
-            </div>
-            <input
-              type='text'
-              name=''
-              className='total'
-              id=''
-              placeholder='Total Taxable Salary'
-            />
-            <br />
-            <label htmlFor='' className='allowance'>
-              Allowances
-            </label>
-            <br />
-            <div className='input-div'>
-              <div className='first-input'>
-                <input
-                  type='text'
-                  placeholder='Basic'
-                  className='small-input try'
-                />
-                <input
-                  type='text'
-                  placeholder='Housing'
-                  className='small-input try'
-                />
-              </div>
-              <br />
-
-              <div className='first-input'>
-                <input
-                  type='text'
-                  placeholder='Transport'
-                  className='small-input'
-                />
-                <input
-                  type='text'
-                  placeholder='Others'
-                  className='small-input'
-                />
-              </div>
-            </div>
-            <label htmlFor='' className='allowance'>
-              Deductions
-            </label>
-            <br />
-            <input type='text' placeholder='HMO' className='total' />
-          </div>
-
-          <div className='second-input'>
-            <div className='toggle-switch'>
-              <h2 className='paye'>PAYE</h2>
-              <input type='checkbox' id='toggle' className='toggle-checkbox' />
-              <label htmlFor='toggle' className='toggle-label'>
-                <span className='switch-text'>No</span>
-                <span className='toggle-slider'></span>
-                <span className='switch-text'>Yes</span>
-              </label>
-            </div>
-
-            <div className='toggle-switch'>
-              <h2 className='paye'>NSITF</h2>
-              <input type='checkbox' id='toggle' className='toggle-checkbox' />
-              <label htmlFor='toggle' className='toggle-label'>
-                <span className='switch-text'>No</span>
-                <span className='toggle-slider'></span>
-                <span className='switch-text'>Yes</span>
-              </label>
-            </div>
-          </div>
-
-          <div className='second-input'>
-            <div className='toggle-switch'>
-              <h2 className='paye'>NHF</h2>
-              <input type='checkbox' id='toggle' className='toggle-checkbox' />
-              <label htmlFor='toggle' className='toggle-label'>
-                <span className='switch-text'>No</span>
-                <span className='toggle-slider'></span>
-                <span className='switch-text'>Yes</span>
-              </label>
-            </div>
-
-            <div className='toggle-switch'>
-              <h2 className='paye'>Pension</h2>
-              <input type='checkbox' id='toggle' className='toggle-checkbox' />
-              <label htmlFor='toggle' className='toggle-label'>
-                <span className='switch-text'>No</span>
-                <span className='toggle-slider'></span>
-                <span className='switch-text'>Yes</span>
-              </label>
-            </div>
-          </div>
-          <br />
-          <button className='run-payroll'>Run Payroll</button>
         </div>
-      </form>
+        <form action='' className=''>
+          <div className='business-form'>
+            <h2 className='payroll-heading'>Payroll Calculator</h2>
+            <p className='form-intro'>
+              Calculate your payroll either by amount or percentage
+            </p>
+            <div className='mid-form'>
+              <div className='switch-btn'>
+                <div className='amount'>By Amount</div>
+                <div className='percentage'>By Percentage</div>
+              </div>
+              <input
+                type='text'
+                name=''
+                className='total'
+                id=''
+                placeholder='Total Taxable Salary'
+              />
+              <br />
+              <label htmlFor='' className='allowance'>
+                Allowances
+              </label>
+              <br />
+              <div className='input-div'>
+                <div className='first-input'>
+                  <input
+                    type='text'
+                    placeholder='Basic'
+                    className='small-input try'
+                  />
+                  <input
+                    type='text'
+                    placeholder='Housing'
+                    className='small-input try'
+                  />
+                </div>
+                <br />
+
+                <div className='first-input'>
+                  <input
+                    type='text'
+                    placeholder='Transport'
+                    className='small-input'
+                  />
+                  <input
+                    type='text'
+                    placeholder='Others'
+                    className='small-input'
+                  />
+                </div>
+              </div>
+              <label htmlFor='' className='allowance'>
+                Deductions
+              </label>
+              <br />
+              <input type='text' placeholder='HMO' className='total' />
+            </div>
+
+            <div className='second-input'>
+              <div className='toggle-switch'>
+                <h2 className='paye'>PAYE</h2>
+                <input
+                  type='checkbox'
+                  id='toggle'
+                  className='toggle-checkbox'
+                />
+                <label htmlFor='toggle' className='toggle-label'>
+                  <span className='switch-text'>No</span>
+                  <span className='toggle-slider'></span>
+                  <span className='switch-text'>Yes</span>
+                </label>
+              </div>
+
+              <div className='toggle-switch'>
+                <h2 className='paye'>NSITF</h2>
+                <input
+                  type='checkbox'
+                  id='toggle'
+                  className='toggle-checkbox'
+                />
+                <label htmlFor='toggle' className='toggle-label'>
+                  <span className='switch-text'>No</span>
+                  <span className='toggle-slider'></span>
+                  <span className='switch-text'>Yes</span>
+                </label>
+              </div>
+            </div>
+
+            <div className='second-input'>
+              <div className='toggle-switch'>
+                <h2 className='paye'>NHF</h2>
+                <input
+                  type='checkbox'
+                  id='toggle'
+                  className='toggle-checkbox'
+                />
+                <label htmlFor='toggle' className='toggle-label'>
+                  <span className='switch-text'>No</span>
+                  <span className='toggle-slider'></span>
+                  <span className='switch-text'>Yes</span>
+                </label>
+              </div>
+
+              <div className='toggle-switch pen'>
+                <h2 className='paye'>Pension</h2>
+                <input
+                  type='checkbox'
+                  id='toggle'
+                  className='toggle-checkbox'
+                />
+                <label htmlFor='toggle' className='toggle-label'>
+                  <span className='switch-text'>No</span>
+                  <span className='toggle-slider'></span>
+                  <span className='switch-text'>Yes</span>
+                </label>
+              </div>
+            </div>
+            <br />
+            <button className='run-payroll'>Run Payroll</button>
+          </div>
+        </form>
+      </section>
     </div>
   );
 };
