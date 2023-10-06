@@ -83,53 +83,60 @@ const Business = () => {
           <p className='form-intro'>
             Calculate your payroll either by amount or percentage
           </p>
-          <div className='switch-btn'>
-            <div className='amount'>By Amount</div>
-            <div className='percentage'>By Percentage</div>
-          </div>
-          <input
-            type='text'
-            name=''
-            className='total'
-            id=''
-            placeholder='Total Taxable Salary'
-          />
-          <br />
-          <label htmlFor='' className='allowance'>
-            Allowances
-          </label>
-          <br />
-          <div className='input-div'>
-            <div className='first-input'>
-              <input
-                type='text'
-                placeholder='Basic'
-                className='small-input try'
-              />
-              <input
-                type='text'
-                placeholder='Housing'
-                className='small-input try'
-              />
+          <div className='mid-form'>
+            <div className='switch-btn'>
+              <div className='amount'>By Amount</div>
+              <div className='percentage'>By Percentage</div>
             </div>
+            <input
+              type='text'
+              name=''
+              className='total'
+              id=''
+              placeholder='Total Taxable Salary'
+            />
             <br />
+            <label htmlFor='' className='allowance'>
+              Allowances
+            </label>
+            <br />
+            <div className='input-div'>
+              <div className='first-input'>
+                <input
+                  type='text'
+                  placeholder='Basic'
+                  className='small-input try'
+                />
+                <input
+                  type='text'
+                  placeholder='Housing'
+                  className='small-input try'
+                />
+              </div>
+              <br />
 
-            <div className='first-input'>
-              <input
-                type='text'
-                placeholder='Transport'
-                className='small-input'
-              />
-              <input type='text' placeholder='Others' className='small-input' />
+              <div className='first-input'>
+                <input
+                  type='text'
+                  placeholder='Transport'
+                  className='small-input'
+                />
+                <input
+                  type='text'
+                  placeholder='Others'
+                  className='small-input'
+                />
+              </div>
             </div>
+            <label htmlFor='' className='allowance'>
+              Deductions
+            </label>
+            <br />
+            <input type='text' placeholder='HMO' className='total' />
           </div>
-          <label htmlFor='' className='allowance'>
-            Deductions
-          </label>
-          <br />
-          <input type='text' placeholder='HMO' className='total' />
+
           <div className='toggle-button-cover'>
-              PAYE
+            PAYE
             <div id='button-3' className='check-btn r'>
               <input className='checkbox' type='checkbox' />
               <div className='knobs'></div>
@@ -144,4 +151,4 @@ const Business = () => {
 };
 export default Business;
 
-// Things I have to do tommorow is this I have to add a label or a text berfore the checkbox in the business page and fix the stylings or change it 
+// Things I have to do tomorrow is this I have to add a label or a text before the checkbox in the business page and fix the stylings or change it
