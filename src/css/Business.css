@@ -90,8 +90,11 @@
 
 .toggle-switch {
   display: flex;
-  gap: 10px;
-  margin: 10px;
+  align-items: center;
+  box-shadow: 0 6px 12px hsla(0, 0%, 66.7%, 0.11);
+  border-radius: 16px;
+  gap: 8px;
+  padding: 6px 10px;
 }
 
 .toggle-checkbox {
@@ -162,4 +165,29 @@
   transition: transform 0.25s ease;
   width: 90%;
   margin: 15px;
+}
+
+.section-5 {
+  background: #f0f7eb;
+}
+
+.section5content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.tagline {
+  color: #ea4e4b;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  font-size: 19px;
+}
+
+.section5-heading {
+  font-weight: 500;
+  line-height: 1.1;
+  font-family: MADE Mellow, sans-serif;
+  color: #292a29;
+  text-align: center;
+  font-size: 35px;
 }
