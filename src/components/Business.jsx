@@ -73,7 +73,7 @@ const Business = () => {
           <div className='flex flex-col items-center justify-center'>
             <h2 className="tagline">EAZIPAY PAYROLL CALCULATOR</h2>
             <h1 className="section5-heading">Run payroll in Five minutes or less</h1>
-            <p className='text-base text-center'>
+            <p className='text-base text-center summary'>
               For making intelligent business decisions, Get your payroll
               report, employee payslips, tax receipts, payroll analysis,
               compliance history - all in one place!{" "}
