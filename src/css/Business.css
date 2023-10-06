@@ -109,7 +109,7 @@
   transform: translateY(-50%);
   font-size: 14px;
   /* color: white; */
-    color: black;
+  color: black;
 
   padding: 0 5px;
 }
@@ -138,5 +138,5 @@
 }
 
 .paye {
-  
+  margin-top: 5px;
 }
