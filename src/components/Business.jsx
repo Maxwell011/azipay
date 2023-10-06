@@ -135,7 +135,7 @@ const Business = () => {
             <input type='text' placeholder='HMO' className='total' />
           </div>
 
-          <div className='first-input'>
+          <div className='second-input'>
             <div className='toggle-switch'>
               <h2 className='paye'>PAYE</h2>
               <input type='checkbox' id='toggle' className='toggle-checkbox' />
@@ -157,7 +157,7 @@ const Business = () => {
             </div>
           </div>
 
-          <div className='first-input'>
+          <div className='second-input'>
             <div className='toggle-switch'>
               <h2 className='paye'>NHF</h2>
               <input type='checkbox' id='toggle' className='toggle-checkbox' />
