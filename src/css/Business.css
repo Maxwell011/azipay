@@ -134,7 +134,7 @@
 }
 
 .toggle-checkbox:checked + .toggle-label .switch-text:last-child {
-  color: white;
+  color: black;
 }
 
 .paye {
