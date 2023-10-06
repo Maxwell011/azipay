@@ -146,3 +146,20 @@
 .paye {
   margin-top: 5px;
 }
+
+.run-payroll {
+  background: #11453b;
+  color: #fff;
+  outline: none;
+  height: 46px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  border-radius: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+  width: 90%;
+  margin: 15px;
+}

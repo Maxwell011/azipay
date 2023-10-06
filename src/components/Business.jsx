@@ -178,11 +178,8 @@ const Business = () => {
               </label>
             </div>
           </div>
-
           <br />
-          <br />
-          <br />
-          <button className=''>Run Payroll</button>
+          <button className='run-payroll'>Run Payroll</button>
         </div>
       </form>
     </div>
