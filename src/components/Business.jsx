@@ -136,7 +136,7 @@ const Business = () => {
           </div>
 
           <div className='toggle-switch'>
-            <h2 className="paye">PAYE</h2>
+            <h2 className='paye'>PAYE</h2>
             <input type='checkbox' id='toggle' className='toggle-checkbox' />
             <label htmlFor='toggle' className='toggle-label'>
               <span className='switch-text'>No</span>
@@ -146,7 +146,7 @@ const Business = () => {
           </div>
 
           <div className='toggle-switch'>
-            <h2 className="paye">NSITF</h2>
+            <h2 className='paye'>NSITF</h2>
             <input type='checkbox' id='toggle' className='toggle-checkbox' />
             <label htmlFor='toggle' className='toggle-label'>
               <span className='switch-text'>No</span>
@@ -156,7 +156,7 @@ const Business = () => {
           </div>
 
           <div className='toggle-switch'>
-            <h2 className="paye">NSITF</h2>
+            <h2 className='paye'>NHF</h2>
             <input type='checkbox' id='toggle' className='toggle-checkbox' />
             <label htmlFor='toggle' className='toggle-label'>
               <span className='switch-text'>No</span>
@@ -164,9 +164,9 @@ const Business = () => {
               <span className='switch-text'>Yes</span>
             </label>
           </div>
-          
+
           <div className='toggle-switch'>
-            <h2 className="paye">NSITF</h2>
+            <h2 className='paye'>Pension</h2>
             <input type='checkbox' id='toggle' className='toggle-checkbox' />
             <label htmlFor='toggle' className='toggle-label'>
               <span className='switch-text'>No</span>
