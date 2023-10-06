@@ -145,6 +145,16 @@ const Business = () => {
             </label>
           </div>
 
+          <div className='toggle-switch'>
+            <h2 className="paye">NSITF</h2>
+            <input type='checkbox' id='toggle' className='toggle-checkbox' />
+            <label htmlFor='toggle' className='toggle-label'>
+              <span className='switch-text'>No</span>
+              <span className='toggle-slider'></span>
+              <span className='switch-text'>Yes</span>
+            </label>
+          </div>
+
           <br />
           <br />
           <br />
