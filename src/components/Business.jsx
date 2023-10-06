@@ -71,8 +71,10 @@ const Business = () => {
       <section className='section-5'>
         <div className='section5content'>
           <div className='flex flex-col items-center justify-center'>
-            <h2 className="tagline">EAZIPAY PAYROLL CALCULATOR</h2>
-            <h1 className="section5-heading">Run payroll in Five minutes or less</h1>
+            <h2 className='tagline'>EAZIPAY PAYROLL CALCULATOR</h2>
+            <h1 className='section5-heading'>
+              Run payroll in Five minutes or less
+            </h1>
             <p className='text-base text-center summary'>
               For making intelligent business decisions, Get your payroll
               report, employee payslips, tax receipts, payroll analysis,
@@ -207,4 +209,4 @@ const Business = () => {
 };
 export default Business;
 
-// Things I have to do tomorrow is this I have to add a label or a text before the checkbox in the business page and fix the stylings or change it
+// Things I have to do tomorrow is this I have to check the first button and check and style the navbar hamburger and styled it properly and maybe do the desktop view of business page cause I almost done with it so yes those are tomorrows task
