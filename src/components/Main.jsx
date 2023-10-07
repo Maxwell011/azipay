@@ -4,6 +4,7 @@ import Freeforever from "/images/free-forever.9a58e2e5.png";
 import Phonegif from "/images/payroll.372ea3c0.gif";
 import Googlestore from "/images/google-store.af961bc5.png";
 import Applestore from "/images/apple-store.1c73f0ba.png";
+// import AudiencePattern from "/images/audience-patterns.5d18a20d.png"
 
 const Main = () => {
   return (
@@ -38,7 +39,7 @@ const Main = () => {
           </div>
         </section>
         {/* Section 2 */}
-        <section className='section2'>
+        <section className="section2 bg-[url('/images/audience-patterns.5d18a20d.png')]">
           <div className='section2-headline'>
             <h1 className='section2heading'>For Individuals and Businesses</h1>
             <small>Join 200+ businesses using Eazi pay easy solution</small>
@@ -94,7 +95,9 @@ const Main = () => {
               <p>03</p>
               <h2 className='prepare'>Prepare your Transaction</h2>
             </div>
-            <p className="run-payroll">Run payroll: Bulk salaried and Compliance are done at once</p>
+            <p className='run-payroll'>
+              Run payroll: Bulk salaried and Compliance are done at once
+            </p>
           </div>
         </section>
         {/* section 5 */}
@@ -172,7 +175,7 @@ const Main = () => {
               </label>
               <button className='submit'>Submit</button>
               <p className='signin'>
-                Already have an account ? <Link to="/signin">Signin</Link>{" "}
+                Already have an account ? <Link to='/signin'>Signin</Link>{" "}
               </p>
             </form>
           </div>
@@ -182,3 +185,5 @@ const Main = () => {
   );
 };
 export default Main;
+
+// this is the work of tomorrow is to fix the home page 
