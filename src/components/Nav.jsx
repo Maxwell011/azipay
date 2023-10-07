@@ -90,8 +90,9 @@ const HamburgerMenu = () => {
           <span></span>
         </button>
         <div className={`menu ${isOpen ? "open" : ""}`}>
-          <ul>
             <Link to='/'>Azipay logo</Link>
+            <div>
+          <ul>
             <Link to='/'>Home</Link>
             <Link to='/individual'>Individual</Link>
             <Link to='/business'>Business</Link>
@@ -99,6 +100,7 @@ const HamburgerMenu = () => {
             <Link to='/login'>Login</Link>
             <Link to='/register'>Register</Link>
           </ul>
+            </div>
         </div>
       </div>
     </div>
