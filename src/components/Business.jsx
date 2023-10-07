@@ -209,4 +209,4 @@ const Business = () => {
 };
 export default Business;
 
-// Things I have to do tomorrow is this I have to check the first button and check and style the navbar hamburger and styled it properly and maybe do the desktop view of business page cause I almost done with it so yes those are tomorrows task
+// Things I have to do tomorrow is this I have to styled it properly and maybe do the desktop view of business page cause I almost done with it so yes those are tomorrows task
