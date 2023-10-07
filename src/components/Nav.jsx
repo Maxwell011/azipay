@@ -91,8 +91,8 @@ const HamburgerMenu = () => {
         </button>
         <div className={`menu ${isOpen ? "open" : ""}`}>
             <Link to='/'>Azipay logo</Link>
-            <div>
-          <ul>
+            <div className="">
+          <ul className="nav-links">
             <Link to='/'>Home</Link>
             <Link to='/individual'>Individual</Link>
             <Link to='/business'>Business</Link>
