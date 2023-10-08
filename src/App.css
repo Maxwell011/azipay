@@ -82,6 +82,10 @@ main {
   margin-bottom: 15px;
 }
 
+.box2heading {
+  width: 70%;
+}
+
 .download {
   display: flex;
   justify-content: center;
