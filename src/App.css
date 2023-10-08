@@ -62,12 +62,13 @@ main {
 .start-btn {
   background: #11453b;
   color: #fff;
+  box-shadow: 0 8px 16px rgba(17, 69, 59, 0.2);
   font-size: 16px;
   width: 135%;
   border-radius: 32px;
   font-weight: 500;
   outline: none;
-  height: 35px;
+  height: 46px;
   padding-left: 30px;
   padding-right: 30px;
   transition: transform 0.25s ease;
@@ -92,6 +93,7 @@ main {
   margin-top: 40px;
   width: max-content;
   font-size: 15px;
+  font-weight: 500;
 }
 
 /* section2 */
