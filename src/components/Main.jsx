@@ -39,7 +39,7 @@ const Main = () => {
           </div>
         </section>
         {/* Section 2 */}
-        <section className="section2 bg-[url('/images/audience-patterns.5d18a20d.png')] ">
+        <section className="section2 bg-[url('/images/audience-patterns.5d18a20d.png')] object-cover ">
           <div className='section2-headline'>
             <h1 className='section2heading'>For Individuals and Businesses</h1>
             <h3 className='small'>
@@ -49,26 +49,18 @@ const Main = () => {
           <div className='boxes'>
             <div className='box1'>
               <h2 className='box-heading'>Tamper-proof Payroll for Life</h2>
-              <ul>
+              <ul className='box-content'>
                 <li>Your staff payroll history is kept in one place forever</li>
                 <li>No more excel sheet or manual records</li>
                 <li>Download your payroll history anytime you need it</li>
               </ul>
             </div>
 
-            <div className='box3'>
-              <h2 className='box-heading'>Payroll In Seconds</h2>
-              <ul>
-                <li>
-                  Never again will you spend more than 2 minutes to payroll
-                </li>
-                <li>Just click on your staff and bulk-pay them at once</li>
-                <li>Payment is done permanently</li>
-              </ul>
-            </div>
             <div className='box2'>
-              <h2 className='box-heading'>All Payroll, Anytime Anywhere</h2>
-              <ul>
+              <h2 className='box-heading box2heading'>
+                All Payroll, Anytime Anywhere
+              </h2>
+              <ul className='box-content'>
                 <li>
                   Wherever you are, Eazipay has got you covered on All your
                   payroll tasks
@@ -78,6 +70,17 @@ const Main = () => {
                   has got you covered on All your compliances In one place and
                   easily, In seconds
                 </li>
+              </ul>
+            </div>
+
+            <div className='box3'>
+              <h2 className='box-heading'>Payroll In Seconds</h2>
+              <ul className='box-content'>
+                <li>
+                  Never again will you spend more than 2 minutes to payroll
+                </li>
+                <li>Just click on your staff and bulk-pay them at once</li>
+                <li>Payment is done permanently</li>
               </ul>
             </div>
           </div>

@@ -86,6 +86,10 @@ main {
   width: 70%;
 }
 
+.box-content {
+  padding: 6px;
+}
+
 .download {
   display: flex;
   justify-content: center;
