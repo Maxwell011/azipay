@@ -86,7 +86,7 @@ const Main = () => {
           </div>
           <p className='small'>
             We are happy to answer your queries. Please reach us at
-            hello@eazipay.com and expect our response shortly
+            hello@eazipay.com and expect our response shortly after.
           </p>
         </section>
         {/* section 4 */}
