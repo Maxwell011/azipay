@@ -124,13 +124,18 @@ main {
   font-weight: 500;
   margin-bottom: 16px;
   color: #11453b;
+  width: 300px;
+  margin-right: 100px;
 }
 
 .small {
+  color: #515251;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .section2-headline {
+  margin-right: 60px;
 }
 
 .new {
