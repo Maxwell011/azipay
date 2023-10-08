@@ -42,7 +42,9 @@ const Main = () => {
         <section className="section2 bg-[url('/images/audience-patterns.5d18a20d.png')]">
           <div className='section2-headline'>
             <h1 className='section2heading'>For Individuals and Businesses</h1>
-            <small>Join 200+ businesses using Eazi pay easy solution</small>
+            <h3 className='small'>
+              Join 200+ businesses using Eazi pay easy solution
+            </h3>
           </div>
           <div className='boxes'>
             <div className='box1'>
@@ -186,4 +188,4 @@ const Main = () => {
 };
 export default Main;
 
-// this is the work of tomorrow is to fix the home page 
+// this is the work of tomorrow is to fix the home page
