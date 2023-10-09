@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../App.css";
-import Freeforever from "/images/free-forever.9a58e2e5.png";
-import Phonegif from "/images/payroll.372ea3c0.gif";
+import FreeForever from "/images/free-forever.9a58e2e5.png";
+import PhoneGif from "/images/payroll.372ea3c0.gif";
 import GoogleStore from "/images/google-store.af961bc5.png";
 import AppleStore from "/images/apple-store.1c73f0ba.png";
 // import AudiencePattern from "/images/audience-patterns.5d18a20d.png"
@@ -95,7 +95,7 @@ const Main = () => {
             <h1 className='section4-title'>How Eazipay Works</h1>
             <h3>Get started in 3 simple steps</h3>
           </div>
-          <img src={Phonegif} alt='Free Forever image' className='iphone' />
+          <img src={PhoneGif} alt='Free Forever image' className='iphone' />
           <div className='section4-bottom'>
             <div className='prepare-flex'>
               <p>03</p>
@@ -113,7 +113,7 @@ const Main = () => {
           </h2>
           <p>Get started in 3 simple steps</p>
 
-          <img src={Freeforever} alt='Free Forever image' />
+          <img src={FreeForever} alt='Free Forever image' />
         </div>
         {/* Section 6 */}
         <div className='section-six'>
