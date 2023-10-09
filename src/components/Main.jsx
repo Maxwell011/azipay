@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import Freeforever from "/images/free-forever.9a58e2e5.png";
 import Phonegif from "/images/payroll.372ea3c0.gif";
-import Googlestore from "/images/google-store.af961bc5.png";
-import Applestore from "/images/apple-store.1c73f0ba.png";
+import GoogleStore from "/images/google-store.af961bc5.png";
+import AppleStore from "/images/apple-store.1c73f0ba.png";
 // import AudiencePattern from "/images/audience-patterns.5d18a20d.png"
 
 const Main = () => {
@@ -31,11 +31,11 @@ const Main = () => {
           <p className='download-eazipay'>Download The Eazipay App</p>
           <div className='download'>
             <img
-              src={Googlestore}
+              src={GoogleStore}
               alt='Google store'
               className='google-store'
             />
-            <img src={Applestore} alt='Apple store' />
+            <img src={AppleStore} alt='Apple store' />
           </div>
         </section>
         {/* Section 2 */}
