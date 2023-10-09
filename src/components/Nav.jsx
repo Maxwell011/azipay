@@ -96,7 +96,6 @@ const HamburgerMenu = () => {
             <Link to='/'>Home</Link>
             <Link to='/individual'>Individual</Link>
             <Link to='/business'>Business</Link>
-            {/* <Link to='/pricing'>Pricing</Link> */}
             <Link to='/login' className="login-btn">Login</Link>
             <Link to='/register' className="register-btn">Register</Link>
           </ul>
