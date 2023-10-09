@@ -63,12 +63,12 @@ const Main = () => {
               <ul className='box-content'>
                 <li>
                   Wherever you are, Eazipay has got you covered on All your
-                  payroll tasks
+                  payroll tasks.
                 </li>
                 <li>
                   Whether is Taxes, pension Insurances HMOS, trustfunds, Eazipay
                   has got you covered on All your compliances In one place and
-                  easily, In seconds
+                  easily, In seconds.
                 </li>
               </ul>
             </div>
@@ -102,7 +102,7 @@ const Main = () => {
               <h2 className='prepare'>Prepare your Transaction</h2>
             </div>
             <p className='run-payroll'>
-              Run payroll: Bulk salaried and Compliance are done at once
+              Run payroll: Bulk salaried and Compliance are done at once.
             </p>
           </div>
         </section>
@@ -127,7 +127,7 @@ const Main = () => {
             <form className='form'>
               <p className='title'>Register </p>
               <p className='message'>
-                Signup now and get full access to our app.{" "}
+                Sign Up now and get full access to our app.{" "}
               </p>
               <div className='flex'>
                 <label>
@@ -143,7 +143,7 @@ const Main = () => {
                 <label>
                   <input
                     required
-                    placeholder='Enter Lastname'
+                    placeholder='Enter LastName'
                     type='text'
                     className='input'
                   />
@@ -181,7 +181,7 @@ const Main = () => {
               </label>
               <button className='submit'>Submit</button>
               <p className='signin'>
-                Already have an account ? <Link to='/signin'>Signin</Link>{" "}
+                Already have an account ? <Link to='/signin'>Sign In</Link>{" "}
               </p>
             </form>
           </div>
@@ -192,4 +192,4 @@ const Main = () => {
 };
 export default Main;
 
-// this is the work of tomorrow is to fix the home page
+// this is the work of tomorrow is to fix the home page and not only fixing the home page i also have to start fixing and styling the desktop version yes even the form is not very well and the Terms Of use and the Register and the login page I have not really done much there I need to style more and even add the forms and  i need to finish the app this week latest.
