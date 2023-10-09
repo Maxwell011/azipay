@@ -45,9 +45,9 @@ const Login = () => {
         </div>
 
         <button id='button'>Submit</button>
-        <a className='forgotLink' href='#'>
+        <Link to="/resetpassword" className='forgotLink'>
           Forgot your password?
-        </a>
+        </Link>
       </form>
     </div>
   );
