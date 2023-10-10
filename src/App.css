@@ -81,7 +81,7 @@ main {
 }
 
 .box-heading {
-  color: #11453b;
+  color: rgb(17, 69, 59);
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -94,6 +94,7 @@ main {
 
 .box-content {
   padding: 6px;
+  text-align: start;
 }
 
 .download {
@@ -122,10 +123,10 @@ main {
 .box2,
 .box3 {
   background: darkgray;
-  padding: 14px;
+  padding: 16px;
   margin: 15px;
-  width: 190%;
-  border-radius: 15px;
+  width: 85%;
+  border-radius: 16px;
 }
 
 .boxes {

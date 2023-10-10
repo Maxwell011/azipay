@@ -33,9 +33,9 @@ const Main = () => {
             <img
               src={GoogleStore}
               alt='Google store'
-              className='google-store'
+              className='store'
             />
-            <img src={AppleStore} alt='Apple store' />
+            <img src={AppleStore} alt='Apple store' className="store" />
           </div>
         </section>
         {/* Section 2 */}
