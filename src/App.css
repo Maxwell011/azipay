@@ -147,6 +147,8 @@ main {
 .small {
   color: #515251;
   font-size: 16px;
+  width: 93%;
+  text-align: center;
   line-height: 24px;
 }
 
@@ -325,7 +327,9 @@ main {
 }
 
 .iphone {
-  border-radius: 30px;
+  border-radius: 40px;
+  width: 60%;
+  margin: 0 88px;
 }
 
 /* Section 5 */
