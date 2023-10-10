@@ -74,6 +74,12 @@ main {
   transition: transform 0.25s ease;
 }
 
+.store {
+  box-shadow: rgba(170, 170, 170, 0.29) 0px 20px 48px 0px;
+  height: 60px;
+  border-radius: 9px;
+}
+
 .box-heading {
   color: #11453b;
   font-size: 20px;
@@ -93,7 +99,8 @@ main {
 .download {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  gap: 15px;
+  width: 60%;
 }
 
 .download-eazipay {
