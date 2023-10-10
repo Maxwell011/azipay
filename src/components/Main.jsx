@@ -39,7 +39,7 @@ const Main = () => {
           </div>
         </section>
         {/* Section 2 */}
-        <section className="section2 bg-[url('/images/audience-patterns.5d18a20d.png')] object-cover ">
+        <section className="section2">
           <div className='section2-headline'>
             <h1 className='section2heading'>For Individuals and Businesses</h1>
             <h3 className='small'>
