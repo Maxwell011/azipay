@@ -363,6 +363,11 @@ main {
 .salary {
 }
 
+.section5content  {
+  padding-bottom:1.5rem;
+  padding-top:1.5rem;
+}
+
 .section2 {
   background-image: url(/images/audience-patterns.5d18a20d.png);
   /* background-color: blueviolet; */
