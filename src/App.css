@@ -310,20 +310,30 @@ main {
   color: rgb(17, 69, 59);
 }
 
-.scetion4-bottom {
+.section4-bottom {
   margin-top: 55px;
+}
+
+.number {
 }
 
 .prepare {
   font-size: 24px;
   margin-bottom: 16px;
+  margin-right: 50px;
+  color: #11453b;
 }
 
 .prepare-flex {
+  display: flex;
+  justify-content: space-around;
 }
 
-.run-payroll {
+.run-payroll2 {
   font-size: 16px;
+  width: 88%;
+  text-align: center;
+  margin-left: 25px;
 }
 
 .iphone {
