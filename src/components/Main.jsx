@@ -30,16 +30,12 @@ const Main = () => {
           {/*  */}
           <p className='download-eazipay'>Download The Eazipay App</p>
           <div className='download'>
-            <img
-              src={GoogleStore}
-              alt='Google store'
-              className='store'
-            />
-            <img src={AppleStore} alt='Apple store' className="store" />
+            <img src={GoogleStore} alt='Google store' className='store' />
+            <img src={AppleStore} alt='Apple store' className='store' />
           </div>
         </section>
         {/* Section 2 */}
-        <section className="section2">
+        <section className='section2'>
           <div className='section2-headline'>
             <h1 className='section2heading'>For Individuals and Businesses</h1>
             <h3 className='small'>
@@ -98,10 +94,13 @@ const Main = () => {
           <img src={PhoneGif} alt='Free Forever image' className='iphone' />
           <div className='section4-bottom'>
             <div className='prepare-flex'>
-              <p>03</p>
-              <h2 className='prepare'>Prepare your Transaction</h2>
+              <p className="number">03</p>
+              <h2 className='prepare'>
+                Prepare your <br />
+                Transaction
+              </h2>
             </div>
-            <p className='run-payroll'>
+            <p className='run-payroll2'>
               Run payroll: Bulk salaried and Compliance are done at once.
             </p>
           </div>
