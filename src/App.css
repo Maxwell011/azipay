@@ -334,12 +334,18 @@ main {
   width: 88%;
   text-align: center;
   margin-left: 25px;
+  color: #11453b;
+  font-weight: 500;
 }
 
 .iphone {
   border-radius: 40px;
   width: 60%;
   margin: 0 88px;
+}
+
+.free-download{
+  margin-left:105px;
 }
 
 /* Section 5 */
