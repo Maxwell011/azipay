@@ -372,10 +372,17 @@ main {
 }
 
 .section5content {
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 18px;
 }
 
 .section5firstdiv {
   margin-bottom: 2.5rem;
+  margin-top: -62px;
+}
+
+.pink-pattern {
+  height: 4rem;
+  margin-left: 1.5rem;
 }

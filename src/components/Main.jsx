@@ -4,7 +4,7 @@ import FreeForever from "/images/free-forever.9a58e2e5.png";
 import PhoneGif from "/images/payroll.372ea3c0.gif";
 import GoogleStore from "/images/google-store.af961bc5.png";
 import AppleStore from "/images/apple-store.1c73f0ba.png";
-// import AudiencePattern from "/images/audience-patterns.5d18a20d.png"
+import PinkPattern from "/images/pink-pattern.png"
 
 const Main = () => {
   return (
@@ -107,12 +107,16 @@ const Main = () => {
         </section>
         {/* section 5 */}
         <div className='section5'>
-          <div className="section5content">
-            <h2 className='section5-heading'>
-              Free forever for your{" "}
-              <span className='salary'>salary payment</span>
-            </h2>
-            <p>Get started in 3 simple steps</p>
+        <img src={PinkPattern} alt="pink pattern" className="pink-pattern"/>
+          <div className='section5content'>
+            <div className='section5firstdiv'>
+              <h2 className='section5-heading'>
+                Free forever for your{" "}
+                <span className='salary'>salary payment</span>
+              </h2>
+              <br />
+              <p>Get started in 3 simple steps</p>
+            </div>
 
             <img src={FreeForever} alt='Free Forever image' />
             <div className='free-download'>
