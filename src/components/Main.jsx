@@ -107,22 +107,21 @@ const Main = () => {
         </section>
         {/* section 5 */}
         <div className='section5'>
-          <div className>
+          <div className="section5content">
+            <h2 className='section5-heading'>
+              Free forever for your{" "}
+              <span className='salary'>salary payment</span>
+            </h2>
+            <p>Get started in 3 simple steps</p>
 
-          </div>
-          
-          <h2 className='section5-heading'>
-            Free forever for your <span className='salary'>salary payment</span>
-          </h2>
-          <p>Get started in 3 simple steps</p>
-
-          <img src={FreeForever} alt='Free Forever image' />
-          <div className="free-download">
-          <p className='download-eazipay'>Download The Eazipay App</p>
-          <div className='download'>
-            <img src={GoogleStore} alt='Google store' className='store' />
-            <img src={AppleStore} alt='Apple store' className='store' />
-          </div>
+            <img src={FreeForever} alt='Free Forever image' />
+            <div className='free-download'>
+              <p className='download-eazipay'>Download The Eazipay App</p>
+              <div className='download'>
+                <img src={GoogleStore} alt='Google store' className='store' />
+                <img src={AppleStore} alt='Apple store' className='store' />
+              </div>
+            </div>
           </div>
         </div>
         {/* Section 6 */}
