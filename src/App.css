@@ -144,6 +144,13 @@ main {
   margin-right: 100px;
 }
 
+.section2 {
+  background-image: url(/images/audience-patterns.5d18a20d.png);
+  background-color: white;
+  background-size: cover;
+  background-position: 50% center;
+}
+
 .small {
   color: #515251;
   font-size: 16px;
@@ -344,8 +351,8 @@ main {
   margin: 0 88px;
 }
 
-.free-download{
-  margin-left:105px;
+.free-download {
+  margin-left: 105px;
 }
 
 /* Section 5 */
@@ -361,17 +368,14 @@ main {
 }
 
 .salary {
+  color: #ea4e4b;
 }
 
-.section5content  {
-  padding-bottom:1.5rem;
-  padding-top:1.5rem;
+.section5content {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
-.section2 {
-  background-image: url(/images/audience-patterns.5d18a20d.png);
-  /* background-color: blueviolet; */
-  background-color: white;
-  background-size: cover;
-  background-position: 50% center;
+.section5firstdiv {
+  margin-bottom: 2.5rem;
 }
