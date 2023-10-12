@@ -126,9 +126,7 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 14px;
-  /* color: white; */
   color: black;
-
   padding: 0 5px;
 }
 
