@@ -166,141 +166,6 @@ main {
 .new {
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 350px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  position: relative;
-}
-
-.title {
-  font-size: 28px;
-  color: royalblue;
-  font-weight: 600;
-  letter-spacing: -1px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 30px;
-}
-
-.title::before,
-.title::after {
-  position: absolute;
-  content: "";
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  left: 0px;
-  background-color: royalblue;
-}
-
-.title::before {
-  width: 18px;
-  height: 18px;
-  background-color: royalblue;
-}
-
-.title::after {
-  width: 18px;
-  height: 18px;
-  animation: pulse 1s linear infinite;
-}
-
-.message,
-.signin {
-  color: rgba(88, 87, 87, 0.822);
-  font-size: 14px;
-}
-
-.signin {
-  text-align: center;
-}
-
-.signin a {
-  color: royalblue;
-}
-
-.signin a:hover {
-  text-decoration: underline royalblue;
-}
-
-.flex {
-  display: flex;
-  width: 100%;
-  gap: 6px;
-}
-
-.form label {
-  position: relative;
-}
-
-.form label .input {
-  width: 100%;
-  padding: 10px 10px 20px 10px;
-  outline: 0;
-  border: 1px solid rgba(105, 105, 105, 0.397);
-  border-radius: 10px;
-}
-
-.form label .input + span {
-  position: absolute;
-  left: 10px;
-  top: 15px;
-  color: grey;
-  font-size: 0.9em;
-  cursor: text;
-  transition: 0.3s ease;
-}
-
-.form label .input:placeholder-shown + span {
-  top: 15px;
-  font-size: 0.9em;
-}
-
-.form label .input:focus + span,
-.form label .input:valid + span {
-  top: 30px;
-  font-size: 0.7em;
-  font-weight: 600;
-}
-
-.form label .input:valid + span {
-  color: black;
-}
-
-.submit {
-  border: none;
-  outline: none;
-  background-color: royalblue;
-  padding: 10px;
-  border-radius: 10px;
-  color: #fff;
-  font-size: 16px;
-  transform: 0.3s ease;
-}
-
-.submit:hover {
-  background-color: rgb(56, 90, 194);
-}
-
-@keyframes pulse {
-  from {
-    transform: scale(0.9);
-    opacity: 1;
-  }
-
-  to {
-    transform: scale(1.8);
-    opacity: 0;
-  }
-}
-
 /* section4 */
 
 .section4 {
@@ -359,6 +224,7 @@ main {
 .section5 {
   background-image: url(/images/patterns.f71bb1a4.png);
   background-color: rgb(255, 233, 231);
+  /* background: #11453b1a; */
   background-size: cover;
   background-position: 50% center;
 }
@@ -385,4 +251,126 @@ main {
 .pink-pattern {
   height: 4rem;
   margin-left: 1.5rem;
+}
+
+/* section 6 */
+.section6heading {
+  font-size: 35px;
+  color: #11453b;
+}
+
+.demo-form {
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  height: 800px;
+  border: 1px solid #e7e8e7;
+  box-shadow: 0 20px 48px hsla(0, 0%, 66.7%, 0.29);
+  border-radius: 32px;
+  background-color: #fff;
+}
+
+.first-heading {
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #515251;
+}
+
+.form-intro {
+  text-align: center;
+  font-size: 17px;
+}
+
+.switch-btn {
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  padding: 6px;
+  gap: 10px;
+  border-radius: 18px;
+  margin: 30px;
+  border: 1px solid #e7e8e7;
+}
+
+.company {
+  padding: 8px;
+  border-radius: 15px;
+  background: #f2f1f1;
+  color: #515251;
+  font-size: 16px;
+}
+
+.amount {
+  padding: 8px;
+  border-radius: 15px;
+  width: 111px;
+  background: #11453b;
+  color: #fff;
+  box-shadow: 0 5.06963px 13.9415px -3.80222px rgba(24, 39, 75, 0.12),
+    0 8.87185px 40.557px -2.53481px rgba(24, 39, 75, 0.12);
+}
+
+.total {
+  background: white;
+  border: #ccc solid 1px;
+  width: 90%;
+  height: 48px;
+  padding: 11px;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+}
+
+.allowance {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.small-input {
+  height: 48px;
+  border-radius: 1rem;
+  padding: 20px;
+  width: 140px;
+  background: white;
+  border: #ccc solid 1px;
+}
+
+.input-div {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  width: 50%;
+}
+
+.business-btn {
+  padding-bottom: 5rem;
+}
+
+.first-input {
+  display: flex;
+  gap: 20px;
+}
+
+.second-input {
+  display: flex;
+  gap: 20px;
+}
+
+.run-payroll {
+  background: #11453b;
+  color: #fff;
+  outline: none;
+  height: 46px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  border-radius: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+  width: 90%;
+  margin: 15px;
 }
