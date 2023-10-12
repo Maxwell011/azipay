@@ -107,7 +107,7 @@ const Main = () => {
         </section>
         {/* section 5 */}
         <div className='section5'>
-        <img src={PinkPattern} alt="pink pattern" className="pink-pattern"/>
+          <img src={PinkPattern} alt='pink pattern' className='pink-pattern' />
           <div className='section5content'>
             <div className='section5firstdiv'>
               <h2 className='section5-heading'>
@@ -129,73 +129,70 @@ const Main = () => {
           </div>
         </div>
         {/* Section 6 */}
-        <div className='section-six'>
-          <h2>Get an Exclusive Demo of Eazipay</h2>
+        <div className='section6'>
+          <h2 className='section6heading'>Get an Exclusive Demo of Eazipay</h2>
           <div className='input-div'>
-            <h3>First things first</h3>
-            <p>
-              We want to serve you better. Tell us a bit about yourself or
-              company
-            </p>
-            <form className='form'>
-              <p className='title'>Register </p>
-              <p className='message'>
-                Sign Up now and get full access to our app.{" "}
-              </p>
-              <div className='flex'>
-                <label>
+            <form action='' className=''>
+              <div className='demo-form'>
+                <h2 className='first-heading'>First things first</h2>
+                <p className='form-intro'>
+                  We want to serve you better. Tell us a bit about yourself or
+                  company
+                </p>
+                <div className='mid-form'>
+                  <div className='switch-btn'>
+                    <div className='amount'>By Individual</div>
+                    <div className='percentage'>By Company</div>
+                  </div>
                   <input
-                    required
-                    placeholder='Enter FirstName'
                     type='text'
-                    className='input'
+                    name=''
+                    className='total'
+                    placeholder='Total Taxable Salary'
                   />
-                  <span>FirstName</span>
-                </label>
+                  <br />
+                  <label htmlFor='' className='allowance'>
+                    Allowances
+                  </label>
+                  <br />
+                  <div className='input-div'>
+                    <div className='first-input'>
+                      <input
+                        type='text'
+                        placeholder='Basic'
+                        className='small-input try'
+                      />
+                      <input
+                        type='text'
+                        placeholder='Housing'
+                        className='small-input try'
+                      />
+                    </div>
+                    <br />
 
-                <label>
-                  <input
-                    required
-                    placeholder='Enter LastName'
-                    type='text'
-                    className='input'
-                  />
-                  <span>LastName</span>
-                </label>
+                    <div className='first-input'>
+                      <input
+                        type='text'
+                        placeholder='Transport'
+                        className='small-input'
+                      />
+                      <input
+                        type='text'
+                        placeholder='Others'
+                        className='small-input'
+                      />
+                    </div>
+                  </div>
+                  <label htmlFor='' className='allowance'>
+                    Deductions
+                  </label>
+                  <br />
+                  <input type='text' placeholder='HMO' className='total' />
+                </div>
+
+                
+                <button className='run-payroll'>Run Payroll</button>
               </div>
-
-              <label>
-                <input
-                  required
-                  placeholder='Enter Email'
-                  type='email'
-                  className='input'
-                />
-                <span>Email</span>
-              </label>
-
-              <label>
-                <input
-                  required
-                  placeholder='Enter Password'
-                  type='password'
-                  className='input'
-                />
-                <span>Password</span>
-              </label>
-              <label>
-                <input
-                  required
-                  placeholder='Confirm password'
-                  type='password'
-                  className='input'
-                />
-                <span>Confirm password</span>
-              </label>
-              <button className='submit'>Submit</button>
-              <p className='signin'>
-                Already have an account ? <Link to='/signin'>Sign In</Link>{" "}
-              </p>
             </form>
           </div>
         </div>
