@@ -10,7 +10,7 @@ const Register = () => {
           <h2>Personal Account</h2>
           <p>For individual who pay their personal and domestic stuff</p>
         </div>
-        <div className=''>
+        <div className='Business-account'>
           <h2>Business Account</h2>
           <p>
             For registered business SMEs, startups, corporate and large
