@@ -7,7 +7,6 @@ import Business from "./components/Business";
 import Individual from "./components/Individual";
 import TermsOfUse from "./components/TermsOfUse";
 
-
 function App() {
   return (
     <>
