@@ -6,7 +6,7 @@ const Register = () => {
       <div>
         <h1>Welcome to Eazipay</h1>
         <p>Please choose an account to sign up and get started.</p>
-        <div className=''>
+        <div className='Personal-account'>
           <h2>Personal Account</h2>
           <p>For individual who pay their personal and domestic stuff</p>
         </div>
