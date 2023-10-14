@@ -183,11 +183,6 @@ const Main = () => {
                       />
                     </div>
                   </div>
-                  <label htmlFor='' className='allowance'>
-                    Deductions
-                  </label>
-                  <br />
-                  <input type='text' placeholder='HMO' className='total' />
                 </div>
 
                 
