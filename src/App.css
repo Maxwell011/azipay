@@ -263,6 +263,7 @@ main {
   padding: 10px;
   text-align: center;
   margin: 20px;
+  width:340px;
   height: 800px;
   border: 1px solid #e7e8e7;
   box-shadow: 0 20px 48px hsla(0, 0%, 66.7%, 0.29);
@@ -330,25 +331,8 @@ main {
   border: #ccc solid 1px;
 }
 
-.input-div {
-  display: flex;
-  gap: 8px;
-  flex-direction: column;
-  width: 50%;
-}
-
 .business-btn {
   padding-bottom: 5rem;
-}
-
-.first-input {
-  display: flex;
-  gap: 20px;
-}
-
-.second-input {
-  display: flex;
-  gap: 20px;
 }
 
 .run-payroll {
