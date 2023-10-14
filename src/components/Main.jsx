@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../App.css";
 import FreeForever from "/images/free-forever.9a58e2e5.png";
 import PhoneGif from "/images/payroll.372ea3c0.gif";
