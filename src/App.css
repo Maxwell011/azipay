@@ -321,13 +321,6 @@ main {
   margin-bottom: 10px;
 }
 
-.allowance {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
 .small-input {
   height: 48px;
   border-radius: 1rem;
