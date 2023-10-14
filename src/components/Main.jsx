@@ -151,38 +151,6 @@ const Main = () => {
                     placeholder='Total Taxable Salary'
                   />
                   <br />
-                  <label htmlFor='' className='allowance'>
-                    Allowances
-                  </label>
-                  <br />
-                  <div className='input-div'>
-                    <div className='first-input'>
-                      <input
-                        type='text'
-                        placeholder='Basic'
-                        className='small-input try'
-                      />
-                      <input
-                        type='text'
-                        placeholder='Housing'
-                        className='small-input try'
-                      />
-                    </div>
-                    <br />
-
-                    <div className='first-input'>
-                      <input
-                        type='text'
-                        placeholder='Transport'
-                        className='small-input'
-                      />
-                      <input
-                        type='text'
-                        placeholder='Others'
-                        className='small-input'
-                      />
-                    </div>
-                  </div>
                 </div>
 
                 
