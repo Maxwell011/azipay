@@ -165,7 +165,7 @@ const Main = () => {
                 </div>
 
                 
-                <button className='run-payroll'>Run Payroll</button>
+                <button className='run-payroll'>Request Demo</button>
               </div>
             </form>
           </div>
