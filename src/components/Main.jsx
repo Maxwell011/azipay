@@ -148,7 +148,19 @@ const Main = () => {
                     type='text'
                     name=''
                     className='total'
-                    placeholder='Total Taxable Salary'
+                    placeholder='First Name'
+                  />
+                  <input
+                    type='text'
+                    name=''
+                    className='total'
+                    placeholder='Last Name'
+                  />
+                  <input
+                    type='text'
+                    name=''
+                    className='total'
+                    placeholder='Email'
                   />
                   <br />
                 </div>
