@@ -162,9 +162,7 @@ const Main = () => {
                     placeholder='Email'
                   />
                   <br />
-                </div>
-
-                
+                </div>             
                 <button className='run-payroll'>Request Demo</button>
               </div>
             </form>
