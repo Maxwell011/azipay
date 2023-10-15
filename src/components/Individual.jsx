@@ -25,8 +25,9 @@ const Individual = () => {
         <button className='bg-[#292a29] text-white p-2 h-10 text-center rounded-3xl m-5'>
           Start using Free, Forever
         </button>
-        {/* Section 2 */}
-        <section></section>
+      </div>
+      {/* Section 2 */}
+      <section  className="pt-12 pb-12">
         <h2 className='text-lg text-red-500'>LOANS</h2>
         <h1 className='text-4xl text-center'>
           Loans,<span className='text-red-500'>wherever you need them</span>{" "}
@@ -35,12 +36,12 @@ const Individual = () => {
           Whenever you fall short of your monthly payroll budget you may easily
           request a loan to cover for it.
         </p>
-      </div>
-      <img
-        src={Enterprise}
-        alt='Enterprise Loan'
-        className='max-w-full h-auto'
-      />
+        <img
+          src={Enterprise}
+          alt='Enterprise Loan'
+          className='max-w-full h-auto'
+        />
+      </section>
       {/* Section 3 */}
       <section className="bg-[url('/images/patterns.icons.png')] bg-center bg-cover bg-[#ffeeec]">
         <div className='flex items-center flex-col justify-center text-center pt-20 pb-20'>
