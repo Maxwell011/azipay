@@ -24,9 +24,7 @@ const Main = () => {
             business to manage staff, pay salaries, bills and relevant taxes all
             at ones.
           </p>
-          {/*  Button */}
           <button className='start-btn'>Start Using free, Forever</button>
-          {/*  */}
           <p className='download-eazipay'>Download The Eazipay App</p>
           <div className='download'>
             <img src={GoogleStore} alt='Google store' className='store' />
