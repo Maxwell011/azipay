@@ -10,11 +10,40 @@ const Footer = () => {
           <ul>
             <li className='gmail'>ezipay@gmail.com</li>
             <li className='number'>+2348168768762</li>
-            <input
-              type='text'
-              className='email-input'
-              placeholder='Your Email Address'
-            />
+            <div className=''>
+              <input
+                type='text'
+                className='email-input'
+                placeholder='Your Email Address'
+              />
+              <svg
+                width='18'
+                height='19'
+                viewBox='0 0 18 19'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+                data-v-80bf18a6=''
+              >
+                <g clipPath='url(#clip0_463_19022)'>
+                  <path
+                    fillRule='evenodd'
+                    clipRule='evenodd'
+                    d='M17.0303 1.75875C17.2341 1.96248 17.3031 2.26491 17.2079 2.53685L11.9579 17.5368C11.8563 17.8271 11.5878 18.0259 11.2806 18.0385C10.9733 18.051 10.6895 17.8747 10.5646 17.5937L7.6818 11.1073L1.1954 8.22444C0.91439 8.09955 0.738092 7.81577 0.750627 7.50851C0.763163 7.20125 0.961991 6.93278 1.25224 6.83119L16.2522 1.58119C16.5242 1.48601 16.8266 1.55502 17.0303 1.75875ZM9.14456 10.7052L11.1671 15.2558L14.7064 5.14335L9.14456 10.7052ZM13.6457 4.08269L3.53331 7.62204L8.0839 9.64452L13.6457 4.08269Z'
+                    fill='#515251'
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id='clip0_463_19022'>
+                    <rect
+                      width='18'
+                      height='18'
+                      fill='white'
+                      transform='translate(0 0.789062)'
+                    ></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
           </ul>
         </div>
 
