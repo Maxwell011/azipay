@@ -256,7 +256,9 @@ main {
 /* section 6 */
 .section6heading {
   font-size: 35px;
-  color: #11453b;
+    color: #11453b;
+    width: 93%;
+    margin-left: 13px;
 }
 
 .section6 {
