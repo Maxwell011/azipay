@@ -259,11 +259,16 @@ main {
   color: #11453b;
 }
 
+.section6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .demo-form {
   padding: 10px;
   text-align: center;
   margin: 20px;
-  width:340px;
+  width: 340px;
   height: 500px;
   border: 1px solid #e7e8e7;
   box-shadow: 0 20px 48px hsla(0, 0%, 66.7%, 0.29);
