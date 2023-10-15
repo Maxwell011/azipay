@@ -168,6 +168,7 @@ const Main = () => {
             </form>
           </div>
         </div>
+        <hr/>
       </main>
     </>
   );
