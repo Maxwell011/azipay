@@ -28,7 +28,7 @@ const Individual = () => {
       </div>
       {/* Section 2 */}
       <section  className="pt-12 pb-12">
-        <h2 className='text-lg text-red-500'>LOANS</h2>
+        <h2 className='text-lg text-red-500 text-center'>LOANS</h2>
         <h1 className='text-4xl text-center'>
           Loans,<span className='text-red-500'>wherever you need them</span>{" "}
         </h1>
