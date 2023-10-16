@@ -129,7 +129,7 @@ const Main = () => {
         {/* Section 6 */}
         <div className='section6'>
           <div className='desktop-view'>
-            <div className=''>
+            <div className='desktop-text'>
               <h2 className='section6heading'>
                 Get an Exclusive Demo of Eazipay
               </h2>
