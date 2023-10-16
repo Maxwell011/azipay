@@ -128,43 +128,53 @@ const Main = () => {
         </div>
         {/* Section 6 */}
         <div className='section6'>
-          <h2 className='section6heading'>Get an Exclusive Demo of Eazipay</h2>
-          <div className='input-div'>
-            <form action='' className=''>
-              <div className='demo-form'>
-                <h2 className='first-heading'>First things first</h2>
-                <p className='form-intro'>
-                  We want to serve you better. Tell us a bit about yourself or
-                  company
-                </p>
-                <div className='mid-form'>
-                  <div className='switch-btn'>
-                    <div className='amount'>By Individual</div>
-                    <div className='percentage'>By Company</div>
+          <div className='desktop-view'>
+            <div className=''>
+              <h2 className='section6heading'>
+                Get an Exclusive Demo of Eazipay
+              </h2>
+              <h3 className='desktop-only'>
+                Our greatest priority is to put you and your business first.
+                Let’s show you how we can help.
+              </h3>
+            </div>
+            <div className='input-div'>
+              <form action='' className=''>
+                <div className='demo-form'>
+                  <h2 className='first-heading'>First things first</h2>
+                  <p className='form-intro'>
+                    We want to serve you better. Tell us a bit about yourself or
+                    company
+                  </p>
+                  <div className='mid-form'>
+                    <div className='switch-btn'>
+                      <div className='amount'>By Individual</div>
+                      <div className='percentage'>By Company</div>
+                    </div>
+                    <input
+                      type='text'
+                      name=''
+                      className='total'
+                      placeholder='First Name'
+                    />
+                    <input
+                      type='text'
+                      name=''
+                      className='total'
+                      placeholder='Last Name'
+                    />
+                    <input
+                      type='text'
+                      name=''
+                      className='total'
+                      placeholder='Email'
+                    />
+                    <br />
                   </div>
-                  <input
-                    type='text'
-                    name=''
-                    className='total'
-                    placeholder='First Name'
-                  />
-                  <input
-                    type='text'
-                    name=''
-                    className='total'
-                    placeholder='Last Name'
-                  />
-                  <input
-                    type='text'
-                    name=''
-                    className='total'
-                    placeholder='Email'
-                  />
-                  <br />
+                  <button className='run-payroll'>Request Demo</button>
                 </div>
-                <button className='run-payroll'>Request Demo</button>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
         <hr />
