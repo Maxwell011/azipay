@@ -363,6 +363,7 @@ main {
     display: block;
     font-size: 20px;
     line-height: 28px;
+    width: 80%;
   }
   .desktop-view {
     display: flex;
@@ -375,6 +376,9 @@ main {
   }
   .desktop-text {
     text-align: left;
+  }
+  .demo-form {
+    
   }
 }
 
