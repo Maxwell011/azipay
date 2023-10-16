@@ -251,9 +251,9 @@ main {
 /* section 6 */
 .section6heading {
   font-size: 35px;
-    color: #11453b;
-    width: 93%;
-    margin-left: 13px;
+  color: #11453b;
+  width: 93%;
+  margin-left: 13px;
 }
 
 .section6 {
@@ -354,16 +354,29 @@ main {
   margin: 15px;
 }
 
-.desktop-only{
+.desktop-only {
   display: none;
 }
 
-@media only screen and (min-width: 768px){
-  .desktop-only{
-  display: block;
-}
+@media only screen and (min-width: 768px) {
+  .desktop-only {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .desktop-view {
+    display: flex;
+    align-items: center;
+  }
+  .section6heading {
+    font-size: 54px;
+    margin-bottom: 1.5rem;
+    width: 70%;
+  }
+  .desktop-text {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-
 }
