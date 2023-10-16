@@ -24,7 +24,6 @@ main {
 }
 
 .first-section {
-  /* background-image: url(/images/background-gradient.png); */
   display: flex;
   flex-direction: column;
   align-items: center;
