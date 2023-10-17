@@ -360,13 +360,22 @@ main {
 
 @media only screen and (min-width: 768px) {
   /* section 2 */
+  .section2heading {
+    font-size: 54px;
+  }
+
+  .small {
+    font-size: 20px;
+  }
+
   .section2-headline {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .box-content,.box-heading {
+  .box-content,
+  .box-heading {
     color: white;
   }
   .box1,
