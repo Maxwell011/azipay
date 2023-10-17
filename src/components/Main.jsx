@@ -112,7 +112,7 @@ const Main = () => {
                 <span className='salary'>salary payment</span>
               </h2>
               <br />
-              <p>Get started in 3 simple steps</p>
+              <p className="mobile-only">Get started in 3 simple steps</p>
             </div>
 
             <img src={FreeForever} alt='Free Forever image' />
