@@ -4,7 +4,6 @@ import PhoneGif from "/images/payroll.372ea3c0.gif";
 import GoogleStore from "/images/google-store.af961bc5.png";
 import AppleStore from "/images/apple-store.1c73f0ba.png";
 import PinkPattern from "/images/pink-pattern.png";
-// import GradientBackground from "/images/background-gradient.png"
 
 const Main = () => {
   return (
