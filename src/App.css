@@ -385,6 +385,9 @@ main {
   .mobile-only {
     display: none;
   }
+  .section5content{
+    
+  }
 }
 
 @media only screen and (min-width: 600px) {
