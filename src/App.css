@@ -360,8 +360,13 @@ main {
 
 @media only screen and (min-width: 768px) {
   /* section 2 */
-  .box-content{
+  .box-content {
     color: white;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    background: #11453b;
   }
 
   /* section 6 */
@@ -384,15 +389,13 @@ main {
     text-align: left;
   }
   .demo-form {
-    
   }
 
   /* Section 5 */
   .mobile-only {
     display: none;
   }
-  .section5content{
-
+  .section5content {
   }
 }
 
