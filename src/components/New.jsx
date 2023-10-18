@@ -25,7 +25,7 @@ const New = () => {
 
           <p className='place-info'>Placement Information</p>
           <div className='trial'>
-            <label htmlFor='duration'>Proposed Duration</label>
+            <label htmlFor='duration' className="Proposed-duration">Proposed Duration</label>
             <br />
             <select name='duration' className='duration'>
               <option value=''>Select</option>
@@ -37,12 +37,12 @@ const New = () => {
               <option value='5 Year'>5 Year</option>
             </select>
             <br />
-            <label htmlFor='amount'>Amount</label>
+            <label htmlFor='amount' className="deposited-amount">Amount</label>
             <br />
             <input className='amount2' placeholder='E.g $2,500,000.00' />
             <br />
 
-            <label htmlFor='rate'>Rate (Based on duration & amount)</label>
+            <label htmlFor='rate' className="rate">Rate (Based on duration & amount)</label>
             <br />
             <input
               id='rate'
@@ -53,7 +53,7 @@ const New = () => {
           </div>
           <br />
 
-          <p>Upon Maturity Tick as Appropriate</p>
+          <p className="return-heading">Upon Maturity Tick as Appropriate</p>
 
           <form>
             <div className='return-choice'>
