@@ -23,6 +23,7 @@ const New = () => {
         </div>
 
         <p className='place-info'>Placement Information</p>
+        <div className="trial">
         <label htmlFor='duration'>Proposed Duration</label>
         <br />
         <select name='duration' className='duration'>
@@ -43,6 +44,7 @@ const New = () => {
         <label htmlFor='rate'>Rate (Based on duration & amount)</label>
         <br />
         <input id='rate' disabled placeholder='20%' className="rate-input" />
+        </div>
         <br />
 
         <p>Upon Maturity Tick as Appropriate</p>
@@ -53,12 +55,13 @@ const New = () => {
           <input type='radio' id='html' name='' value='HTML' />
           <label htmlFor='interest'>Roll Over Interest and Principal</label>
             </div>
-          <br />
+          <div className="second-choice">
           <input type='radio' id='css' name='' value='CSS' />
           <label htmlFor='interest'>
             Drop Interest and Roll over Principal
           </label>
-          <br />
+          </div>
+          <div className="third-choice">
           <input
             type='radio'
             id='javascript'
@@ -66,6 +69,7 @@ const New = () => {
             value='JavaScript'
           />
           <label htmlFor='interest'>Drop Both Interest and Principal</label>
+          </div>
           </div>
         </form>
 
