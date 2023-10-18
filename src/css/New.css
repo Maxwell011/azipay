@@ -2,6 +2,18 @@
   .fixed-deposit-content {
   }
 
+  .Proposed-duration {
+    margin-right: 160px;
+  }
+
+  .deposited-amount {
+    margin-right: 230px;
+  }
+
+  .rate {
+    margin-right: 37px;
+  }
+
   .fixed-deposit-heading {
     font-size: 32px;
     font-weight: 600;
@@ -52,6 +64,8 @@
     box-shadow: 0px 1.04009px 2.08017px 0px rgba(16, 24, 40, 0.05);
     padding: 5px;
     width: 300px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     height: 40px;
   }
   .rate-input {
@@ -62,7 +76,16 @@
     padding: 5px;
     width: 300px;
     height: 40px;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
+  }
+
+  .return-heading {
+    color: var(--Gray-Text, #667085);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
   }
 
   .return-choice {
