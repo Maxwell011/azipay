@@ -52,9 +52,8 @@ const New = () => {
             />
           </div>
           <br />
-
+          <div className="content">
           <p className="return-heading">Upon Maturity Tick as Appropriate</p>
-
           <form>
             <div className='return-choice'>
               <div className='first-choice'>
@@ -82,6 +81,7 @@ const New = () => {
               </div>
             </div>
           </form>
+          </div>
 
           <button className='continue-btn'>Continue</button>
         </div>
