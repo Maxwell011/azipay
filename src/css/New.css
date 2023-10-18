@@ -13,8 +13,9 @@
   .select-account {
     display: flex;
     gap: 10px;
+    margin-top: 42px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
   }
 
   .choose-account {
@@ -26,6 +27,8 @@
   }
 
   .bank-select {
+    width: 190px;
+    height: 40px;
     border-radius: 8px;
     border: 1px solid #d0d5dd;
     background: #fff;
@@ -36,6 +39,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
+    margin-top: 42px;
   }
   .duration,
   .amount2 {
@@ -45,6 +49,7 @@
     box-shadow: 0px 1.04009px 2.08017px 0px rgba(16, 24, 40, 0.05);
     padding: 5px;
     width: 300px;
+    height: 40px;
   }
   .rate-input {
     border-radius: 8px;
@@ -53,11 +58,28 @@
     box-shadow: 0px 1.04009px 2.08017px 0px rgba(16, 24, 40, 0.05);
     padding: 5px;
     width: 300px;
+    height: 40px;
     margin-bottom: 48px;
   }
 
   .return-choice {
     margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .first-choice,
+  .second-choice,
+  .third-choice {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .second-choice {
+    margin-left: 31px;
   }
 
   .continue-btn {
@@ -68,6 +90,9 @@
     padding: 6px;
     color: white;
     width: 320px;
+  }
+  .trial {
+    margin-top: 24px;
   }
 }
 
