@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) {
+  .fixed-deposit-heading {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    width: 330px;
+    height: 55px;
+    color: #212121;
+    display: contents;
+  }
+
+  .select-account {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .choose-account {
+    color: #667085;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+
+  .bank-select {
+    border-radius: 8px;
+    border: 1px solid #d0d5dd;
+    background: #fff;
+    box-shadow: 0px 1.04009px 2.08017px 0px rgba(16, 24, 40, 0.05);
+  }
+  .place-info {
+    color: #202020;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .duration,
+  .amount2 {
+    border-radius: 8px;
+    border: 1px solid var(--textfield-stroke, #d0d5dd);
+    background: var(--White, #fff);
+    box-shadow: 0px 1.04009px 2.08017px 0px rgba(16, 24, 40, 0.05);
+    padding: 5px;
+    width: 300px;
+  }
+  .rate-input {
+    border-radius: 8px;
+    border: 1px solid var(--textfield-stroke, #d0d5dd);
+    background: var(--background-gray, #eff0f1);
+    box-shadow: 0px 1.04009px 2.08017px 0px rgba(16, 24, 40, 0.05);
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 48px;
+  }
+
+  .return-choice {
+    margin-bottom: 24px;
+  }
+
+  .continue-btn {
+    border-radius: 100px;
+    border: 1px solid var(--Avvic-Blue-Pri, #0d9999);
+    background: var(--Avvic-Blue-Pri, #0d9999);
+    box-shadow: 0px 0.96021px 1.92041px 0px rgba(16, 24, 40, 0.05);
+    padding: 6px;
+    color: white;
+    width: 320px;
+  }
+}
+
+/* display: flex;
+padding: 11.5px 16px;
+justify-content: space-between;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch; */
