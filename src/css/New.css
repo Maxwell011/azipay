@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .fixed-deposit-content {
   }
 
@@ -125,11 +125,133 @@
   .content {
     margin-right: 37px;
   }
-}
+} */
 
-/* display: flex;
-padding: 11.5px 16px;
-justify-content: space-between;
-align-items: center;
-flex: 1 0 0;
-align-self: stretch; */
+/* Second Form */
+/* @media only screen and (min-width: 768px) {
+  .second-form {
+    margin: 0 400px;
+    width: 555px;
+  }
+
+  .second-form-heading {
+    color: #212121;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51.2px;
+  }
+
+  .confirm-request-heading {
+    color: #212121;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px;
+    margin-bottom: 40px;
+    margin-top: 42px;
+  }
+
+  .confirming-request {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .confirm-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .request-heading1 {
+    color: #667085;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+  .request-heading2 {
+    color: #667085;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .request-choice {
+    color: #212121;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+
+  .note-div {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+  }
+
+  .note {
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .confirm-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .previous-btn {
+    padding: 10px;
+    width: 290.5px;
+    height: 52px;
+    border-radius: 100px;
+    border: 1px solid var(--Avvic-Blue-Pri, #0d9999);
+    box-shadow: 0px 0.96021px 1.92041px 0px rgba(16, 24, 40, 0.05);
+    color: var(--Avvic-Blue-Pri, var(--Avvic-pry, #0d9999));
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px;
+  }
+  .submit-btn {
+    padding: 10px;
+    width: 290.5px;
+    height: 52px;
+    border-radius: 100px;
+    box-shadow: 0px 0.96021px 1.92041px 0px rgba(16, 24, 40, 0.05);
+    color: white;
+    background: #0d9999;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px;
+  }
+} */
+
+/* Transaction History */
+@media only screen and (min-width: 768px) {
+  .transaction-history-div {
+  }
+  .deposit-amount-container {
+    width: 240px;
+    height: 102px;
+    color: var(--neutral-black, #212121);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.4px;
+    border-radius: 8px;
+    border: 1px solid var(--textfield-placeholder, #878e9d);
+    background: rgba(2, 11, 50, 0.04);
+  }
+  .deposit-amount {
+    color: var(--Gray-Text, #667085);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+}
