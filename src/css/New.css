@@ -128,7 +128,7 @@
 } */
 
 /* Second Form */
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .second-form {
     margin: 0 400px;
     width: 555px;
@@ -229,13 +229,14 @@
     font-weight: 600;
     line-height: 28.8px;
   }
-} */
+}
 
 /* Transaction History */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .transaction-history-div {
   }
-  .deposit-amount-container {
+  .deposit-amount-container,
+  .maturity-value-container {
     width: 240px;
     height: 102px;
     color: var(--neutral-black, #212121);
@@ -247,11 +248,67 @@
     border: 1px solid var(--textfield-placeholder, #878e9d);
     background: rgba(2, 11, 50, 0.04);
   }
-  .deposit-amount {
+  .deposit-amount-heading,
+  .maturity-value-heading,
+  .proposed-heading,
+  .renewal-heading,
+  .interest-heading,
+  .accrued-heading,
+  .payment-heading {
     color: var(--Gray-Text, #667085);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 25.6px;
   }
-}
+  .amount-value,
+  .maturity-value,
+  .proposed-value,
+  .renewal-value,
+  .interest-value,
+  .accrued-value,
+  .payment-value {
+    color: var(--neutral-black, #212121);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.4px;
+  }
+
+  .proposed-container {
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid var(--textfield-placeholder, #878e9d);
+    background: rgba(2, 11, 50, 0.04);
+    width: 168px;
+    height: 102px;
+  }
+  .renewal-container {
+    width: 354px;
+    height: 102px;
+    border-radius: 8px;
+    border: 1px solid var(--textfield-placeholder, #878e9d);
+    background: rgba(2, 11, 50, 0.04);
+  }
+  .interest-container {
+    width: 191px;
+    height: 102px;
+    border-radius: 8px;
+    border: 1px solid var(--textfield-placeholder, #878e9d);
+    background: rgba(2, 11, 50, 0.04);
+  }
+  .accrued-container {
+    width: 156px;
+    height: 102px;
+    border-radius: 8px;
+    border: 1px solid var(--textfield-placeholder, #878e9d);
+    background: rgba(2, 11, 50, 0.04);
+  }
+  .payment-container {
+    width: 239px;
+    width: 239px;
+    border-radius: 8px;
+    border: 1px solid var(--textfield-placeholder, #878e9d);
+    background: rgba(2, 11, 50, 0.04);
+  }
+} */
