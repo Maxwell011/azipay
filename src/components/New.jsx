@@ -59,89 +59,58 @@ import "../css/New.css";
 //               <div className='first-choice'>
 //                 <input type='radio' id='html' name='' value='HTML' />
 //                 <label htmlFor='interest'>
-//                   Roll Over Interest and Principal
-//                 </label>
-//               </div>
-//               <div className='second-choice'>
-//                 <input type='radio' id='css' name='' value='CSS' />
-//                 <label htmlFor='interest'>
-//                   Drop Interest and Roll over Principal
-//                 </label>
-//               </div>
-//               <div className='third-choice'>
-//                 <input
-//                   type='radio'
-//                   id='javascript'
-//                   name=''
-//                   value='JavaScript'
-//                 />
-//                 <label htmlFor='interest'>
-//                   Drop Both Interest and Principal
-//                 </label>
-//               </div>
-//             </div>
-//           </form>
+//                   Roll Over Interest and 
+
+// const New = () => {
+//   return (
+//     <>
+//       <div className='second-form'>
+//         <h1 className='second-form-heading'>Fixed Deposit Request</h1>
+
+//         <p className='confirm-request-heading'>Confirm your request</p>
+//         <div className='confirming-request'>
+//           <div className='confirm-details'>
+//             <h3 className='request-heading1'>Debited Account</h3>
+//             <p className='request-choice'>Savings - 0046329533</p>
+//           </div>
+//           <div className='confirm-details'>
+//             <h3 className='request-heading1'>Proposed Duration</h3>
+//             <p className='request-choice'>2 Years </p>
+//           </div>
+//           <div className='confirm-details'>
+//             <h3 className='request-heading1'>Amount</h3>
+//             <p className='request-choice'>2,500,000.00</p>
+//           </div>
+//           <div className='confirm-details'>
+//             <h3 className='request-heading2'>Rate</h3>
+//             <p className='request-choice'>12% per annum </p>
+//           </div>
+//           <div className='confirm-details'>
+//             <h3 className='request-heading2'>Maturity Value</h3>
+//             <p className='request-choice'>3,000,000.00</p>
+//           </div>
+//           <div className='confirm-details'>
+//             <h3 className='request-heading2'>Upon Maturity</h3>
+//             <p className='request-choice'>Roll Over Interest and Principal </p>
+//           </div>
+//           <div className='note-div'>
+//             <p className='note'>NOTE:</p>
+//             <p className='note'>
+//               Pre-liquidation will attract a 40% penalty on accrued interest.
+//             </p>
 //           </div>
 
-//           <button className='continue-btn'>Continue</button>
+//           <div className='confirm-buttons'>
+//             <button className='previous-btn'>Previous</button>
+//             <button className='submit-btn'>Submit Request</button>
+//           </div>
 //         </div>
-//       </section>
+//       </div>
 //     </>
 //   );
 // };
 
 // export default New;
-
-const New = () => {
-  return (
-    <>
-      <div className='second-form'>
-        <h1 className='second-form-heading'>Fixed Deposit Request</h1>
-
-        <p className='confirm-request-heading'>Confirm your request</p>
-        <div className='confirming-request'>
-          <div className='confirm-details'>
-            <h3 className='request-heading1'>Debited Account</h3>
-            <p className='request-choice'>Savings - 0046329533</p>
-          </div>
-          <div className='confirm-details'>
-            <h3 className='request-heading1'>Proposed Duration</h3>
-            <p className='request-choice'>2 Years </p>
-          </div>
-          <div className='confirm-details'>
-            <h3 className='request-heading1'>Amount</h3>
-            <p className='request-choice'>2,500,000.00</p>
-          </div>
-          <div className='confirm-details'>
-            <h3 className='request-heading2'>Rate</h3>
-            <p className='request-choice'>12% per annum </p>
-          </div>
-          <div className='confirm-details'>
-            <h3 className='request-heading2'>Maturity Value</h3>
-            <p className='request-choice'>3,000,000.00</p>
-          </div>
-          <div className='confirm-details'>
-            <h3 className='request-heading2'>Upon Maturity</h3>
-            <p className='request-choice'>Roll Over Interest and Principal </p>
-          </div>
-          <div className='note-div'>
-            <p className='note'>NOTE:</p>
-            <p className='note'>
-              Pre-liquidation will attract a 40% penalty on accrued interest.
-            </p>
-          </div>
-
-          <div className='confirm-buttons'>
-            <button className='previous-btn'>Previous</button>
-            <button className='submit-btn'>Submit Request</button>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
-export default New;
 
 // const New = () => {
 //   return (
