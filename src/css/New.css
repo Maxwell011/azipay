@@ -1,31 +1,3 @@
-/* @media only screen and (min-width: 768px) {
-  .fixed-deposit-content {
-  }
-
-  .Proposed-duration {
-    margin-right: 160px;
-  }
-
-  .deposited-amount {
-    margin-right: 230px;
-  }
-
-  .rate {
-    margin-right: 37px;
-  }
-
-  .fixed-deposit-heading {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 51px;
-    letter-spacing: 0em;
-    width: 330px;
-    height: 55px;
-    color: #212121;
-    display: contents;
-  }
-
-
 /* Transaction History */
 /* @media only screen and (min-width: 768px) {
   .transaction-history-div {
