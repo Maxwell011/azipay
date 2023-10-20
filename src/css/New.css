@@ -1,5 +1,5 @@
-/* Transaction History */
-/* @media only screen and (min-width: 768px) {
+/* Transaction History  */
+@media only screen and (min-width: 768px) {
   .transaction-history-div {
   }
   .deposit-amount-container,
@@ -78,4 +78,4 @@
     border: 1px solid var(--textfield-placeholder, #878e9d);
     background: rgba(2, 11, 50, 0.04);
   }
-} */
+}
