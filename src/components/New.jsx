@@ -1,18 +1,4 @@
-// import { GoBackBtn } from "../../components";
 import "../css/New.css";
-
-// const New = () => {
-//   return (
-//     <>
-//       {/* <GoBackBtn /> */}
-//       <section className='fixed-deposit-container'>
-//         <div className='fixed-deposit-content'>
-//           <h1 className='fixed-deposit-heading'>Fixed Deposit Request</h1>
-
-//           <div className='select-account'>
-//             <label htmlFor='choose-account' className='choose-account'>
-//               Select account to be debited
-
 
 // const New = () => {
 //   return (
