@@ -14,10 +14,10 @@ const New = () => {
             <p className='maturity-value-heading'>Maturity Value</p>
             <p className='maturity-value'>NGN 3,000,000.00</p>
           </div>
-          <div className='proposed-container'>
+          {/* <div className='proposed-container'>
             <p className='proposed-heading'>Proposed Duration</p>
             <p className='proposed-value'>18 Months</p>
-          </div>
+          </div> */}
           <div className='renewal-container'>
             <p className='renewal-heading'>Renewal Option</p>
             <p className='renewal-value'>Roll Over Interest and Capital</p>
