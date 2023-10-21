@@ -30,10 +30,10 @@ const New = () => {
             <p className='accrued-heading'> Accrued Interest</p>
             <p className='accrued-value'>NGN 8,253,000</p>
           </div>
-          <div className='payment-container'>
+          {/* <div className='payment-container'>
             <p className='payment-heading'>Interest Payment Frequency</p>
             <p className='payment-value'>Quarterly</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
