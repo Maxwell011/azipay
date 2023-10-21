@@ -28,7 +28,7 @@
     font-weight: 500;
     line-height: 25.6px;
   }
-  .amount-value,
+  /* .amount-value,
   .maturity-value,
   .proposed-value,
   .renewal-value,
@@ -49,7 +49,7 @@
     background: rgba(2, 11, 50, 0.04);
     width: 168px;
     height: 102px;
-  }
+  } */
   .renewal-container {
     width: 354px;
     height: 102px;
