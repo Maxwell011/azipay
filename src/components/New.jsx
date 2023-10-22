@@ -22,10 +22,10 @@ const New = () => {
             <p className='renewal-heading'>Renewal Option</p>
             <p className='renewal-value'>Roll Over Interest and Capital</p>
           </div>
-          {/* <div className='interest-container'>
+          <div className='interest-container'>
             <p className='interest-heading'>Interest Rate</p>
             <p className='interest-value'>20% Annually</p>
-          </div> */}
+          </div>
           <div className='accrued-container'>
             <p className='accrued-heading'> Accrued Interest</p>
             <p className='accrued-value'>NGN 8,253,000</p>
