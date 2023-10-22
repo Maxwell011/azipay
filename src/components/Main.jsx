@@ -126,12 +126,10 @@ const Main = () => {
             </div>
           </div>
         </div>
-
         {/* Section 6 */}
         <New />
 
-        {/* Section 6 */}
-
+        {/* Trying */}
         {/* Section 6 */}
         <div className='section6'>
           <div className='desktop-view'>
