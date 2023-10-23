@@ -152,7 +152,7 @@ const Main = () => {
                   </p>
                   <div className='mid-form'>
                     <div className='switch-btn'>
-                      <div className='amount'>By Individual</div>
+                      <div className='individual'>By Individual</div>
                       <div className='percentage'>By Company</div>
                     </div>
                     <input
