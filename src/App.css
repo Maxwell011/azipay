@@ -407,6 +407,8 @@ main {
     text-align: left;
   }
   .demo-form {
+    width: 500px;
+    margin-right: 110px;
   }
 
   /* Section 5 */
