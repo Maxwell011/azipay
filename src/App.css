@@ -423,11 +423,13 @@ main {
 
   .individual {
     width: 200px;
-    margin-right: 40px;
   }
 
   .company {
     width: 200px;
+  }
+
+  .switch-btn {
   }
 
   /* Section 5 */
