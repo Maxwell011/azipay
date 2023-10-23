@@ -158,19 +158,19 @@ const Main = () => {
                     <input
                       type='text'
                       name=''
-                      className='total'
+                      className='total input'
                       placeholder='First Name'
                     />
                     <input
                       type='text'
                       name=''
-                      className='total'
+                      className='total input'
                       placeholder='Last Name'
                     />
                     <input
                       type='text'
                       name=''
-                      className='total'
+                      className='total input'
                       placeholder='Email'
                     />
                     <br />
