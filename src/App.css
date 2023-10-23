@@ -405,6 +405,7 @@ main {
   }
   .desktop-text {
     text-align: left;
+    margin-left: 110px;
   }
   .demo-form {
     width: 500px;
