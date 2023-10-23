@@ -421,8 +421,13 @@ main {
     box-shadow: none;
   }
 
-  .amount {
+  .individual {
+    width: 200px;
+    margin-right: 40px;
+  }
 
+  .company {
+    width: 200px;
   }
 
   /* Section 5 */
