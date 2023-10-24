@@ -119,6 +119,7 @@ const Main = () => {
             <img src={FreeForever} alt='Free Forever image' />
             <div className='free-download'>
               <p className='download-eazipay'>Download The Eazipay App</p>
+              <p className='subscribe-eazipay'>Subscribe to the Eazy life today</p>
               <div className='download'>
                 <img src={GoogleStore} alt='Google store' className='store' />
                 <img src={AppleStore} alt='Apple store' className='store' />
