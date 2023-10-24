@@ -107,6 +107,10 @@ main {
   font-weight: 500;
 }
 
+.subscribe-eazipay {
+  display: none;
+}
+
 /* section2 */
 
 .section2 {
@@ -387,6 +391,11 @@ main {
     background: #11453b;
   }
 
+  .boxes {
+    display: flex;
+    flex-direction: row;
+  }
+
   /* section 6 */
   .desktop-only {
     display: block;
@@ -437,6 +446,13 @@ main {
     display: none;
   }
   .section5content {
+  }
+
+  .subscribe-eazipay {
+    display: block;
+  }
+  .download-eazipay {
+    display: none;
   }
 }
 
