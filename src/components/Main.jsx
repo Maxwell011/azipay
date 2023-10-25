@@ -183,5 +183,3 @@ const Main = () => {
   );
 };
 export default Main;
-
-// this is the work of tomorrow is to fix the home page and not only fixing the home page i also have to start fixing and styling the desktop version yes even the form is not very well and the Terms Of use and the Register and the login page I have not really done much there I need to style more and even add the forms and  i need to finish the app this week latest.
