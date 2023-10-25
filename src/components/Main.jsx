@@ -4,7 +4,6 @@ import PhoneGif from "/images/payroll.372ea3c0.gif";
 import GoogleStore from "/images/google-store.af961bc5.png";
 import AppleStore from "/images/apple-store.1c73f0ba.png";
 import PinkPattern from "/images/pink-pattern.png";
-import New from "../components/New";
 
 const Main = () => {
   return (
@@ -127,10 +126,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-        {/* Section 6 */}
-        <New />
-
-        {/* Trying */}
         {/* Section 6 */}
         <div className='section6'>
           <div className='desktop-view'>
