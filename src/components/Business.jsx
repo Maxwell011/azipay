@@ -208,5 +208,3 @@ const Business = () => {
   );
 };
 export default Business;
-
-// Things I have to do tomorrow is this I have to styled it properly and maybe do the desktop view of business page cause I almost done with it so yes those are tomorrows task
