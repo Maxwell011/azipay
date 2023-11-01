@@ -17,7 +17,7 @@ const Register = () => {
             companies
           </p>
         </div>
-        <button>Get Started</button>
+        <button className="">Get Started</button>
         <Link to="/signin">
           <p>Already have an account? Sign In</p>
         </Link>
