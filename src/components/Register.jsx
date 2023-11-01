@@ -4,8 +4,10 @@ const Register = () => {
   return (
     <>
       <div>
-        <h1 className="">Welcome to Eazipay</h1>
-        <p>Please choose an account to sign up and get started.</p>
+        <h1 className=''>Welcome to Eazipay</h1>
+        <p className=''>
+          Please choose an account to sign up and get started.
+        </p>
         <div className='Personal-account'>
           <h2>Personal Account</h2>
           <p>For individual who pay their personal and domestic stuff</p>
@@ -17,8 +19,8 @@ const Register = () => {
             companies
           </p>
         </div>
-        <button className="">Get Started</button>
-        <Link to="/signin">
+        <button className=''>Get Started</button>
+        <Link to='/signin'>
           <p>Already have an account? Sign In</p>
         </Link>
       </div>
