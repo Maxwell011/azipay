@@ -14,7 +14,7 @@ const Register = () => {
         </div>
         <div className='Business-account'>
           <h2>Business Account</h2>
-          <p>
+          <p className="">
             For registered business SMEs, startups, corporate and large
             companies
           </p>
